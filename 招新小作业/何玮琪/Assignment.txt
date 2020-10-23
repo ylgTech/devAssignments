@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>YLG高级任务</title>
+    <link type="text/css" rel="stylesheet" href="Assignments.css" />
+</head>
+
+<body class="body">
+    <div class="header">
+        <div class="header-left">
+            <img src="../image/Logo.png" alt="叉子" width="30" height="30">
+            <div class="header-left-text">Gratia</div>
+        </div>
+        <div class="header-nevi">
+            <ul>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a class="active" href="#Menu">Menu</a> </li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="title">
+        <div class="title-head">MENU</div>
+        <div class="title-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-box">
+            <img src="../image/Main Dishes.png" alt="Main Dishes">
+            <div class="gallery-title">MAIN DISHES</div>
+            <div class="gallery-box-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+
+        <div class="gallery-box">
+            <img src="../image/Soups.png" alt="soup">
+            <div class="gallery-title">SOUPS</div>
+            <div class="gallery-box-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="gallery-box">
+            <img src="../image/Hamburgers.png" alt="hamburger">
+            <div class="gallery-title">HAMBURGERS</div>
+            <div class="gallery-box-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="gallery-box">
+            <img src="../image/Desserts.png" alt="dessert">
+            <div class="gallery-title">DESSERTS</div>
+            <div class="gallery-box-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="gallery-box">
+            <img src="../image/Barbecue.png" alt="BARBECUE">
+            <div class="gallery-title">BARBECUE</div>
+            <div class="gallery-box-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="gallery-box">
+            <img src="../image/Salads.png" alt="salad">
+            <div class="gallery-title">SALADS</div>
+            <div class="gallery-box-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="../image/Logo.png" class="footer-logo">
+        <div class="footer-title">Gratia Restaurant</div>
+        <div class="footer-desc">Copyright 2016.All rights resereved by symu</div>
+        <div class="footer-icon">
+            <img src="../image/FB.png" alt="FB">
+            <img src="../image/TR.png" alt="TR">
+            <img src="../image/IG.png" alt="IG">
+        </div>
+    </div>
+</body>
+
+</html>
