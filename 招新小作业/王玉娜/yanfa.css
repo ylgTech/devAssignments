@@ -1,0 +1,157 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  top: 0px;
+  margin: 0px 15px 15px 15px;
+  padding: 10px;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: rgba(255, 255, 255, 1);
+  position: fixed;
+}
+.logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.restayrant-logo {
+  width: 40px;
+  height: 40px;
+  margin-top:6px;
+  
+  
+}
+.restaurant-name {
+  font-size:1.5em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 25px;
+  
+}
+.navi-son {
+  font-size: 1.1em;
+  
+  margin: 30px;
+}
+.navi-son:hover {
+  color: orange
+}
+.wrapper {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:150px;
+  width:639px;
+  height:193px;
+  background-image: url(./images/image/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title-header {
+  font-size:2.5em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+}
+.title-desc {
+  font-weight: lighter;
+  font-style: italic;
+  font-family:"Times New Roman", Times, serif;
+  color: silver;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.one,.two,.three,.four,.five,.six {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 396px;
+  height: 492px;
+  margin: 20px;
+  box-shadow: 10px 5px 60px rgb(206, 204, 204);
+  
+}
+.picture {
+  width: 100%;
+  margin-top: -52px;
+  
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  font-family: "Times New Roman",Times,serif;
+  font-style: italic;
+  color: silver;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 200px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  border: solid 1px #e7e7e7;
+  margin-top: -55px;
+  background-image: url(./images/image/Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.end {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.end-desc {
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: silver;
+}
+.last {
+  border-top: solid #e7e7e7 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 25px;
+  padding: 20px 10px;
+}
+.last-pic {
+  margin: 8px;
+}
