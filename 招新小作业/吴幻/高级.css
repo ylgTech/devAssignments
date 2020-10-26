@@ -1,0 +1,49 @@
+body { background-image:url('background.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:50% 15%;
+    background-color: rgba(253, 253, 253, 0.89)}
+div.head1{
+  display: flex;
+  flex-direction: row-reverse;
+justify-content: right;}
+a{display:block;
+	width:100px;
+  color: black;}
+a.active {color: rgb(245, 159, 20);}
+.MENU{ font-weight: bolder;
+  text-align: center;
+  font-size: xx-large;}
+.words{text-align: center;
+font-size: xx-small;}
+div.mainbody{display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:center
+}
+div.mainbody{margin: 75px;}
+div.food{text-align: center;
+margin: 15px;
+border: 1px solid #fafafc;
+display: inline-block;
+background-color: rgb(255, 255, 255);}
+div.zi{font-size: xx-large;
+font-weight: bolder;}
+div.xiaozi{font-weight: 200;}
+.logo{text-align: center;}
+.endword1{text-align: center;}
+.endword2{font-weight: 100;
+text-align: center;
+color: gray;}
+.endpicture{text-align: center;}
+.logobox{width:130px;
+height:130px;
+margin: 30px auto;
+border: 0.01px solid silver;
+line-height: 200px;
+border-radius: 50%;
+position: relative;
+top: 95px;
+background-color: #fff;}
+.logobox img{margin-top: 0px;}
+
