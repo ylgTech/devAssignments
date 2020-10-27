@@ -1,73 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>10.10作业</title>
+	<title>我的修改</title>
 	<style type="text/css">
-	#head{
+	.head{
 		width: 100%;
+		height: 45px;
 		padding: 10px;
-		position: fixed;
 		top: 0px;
 		background-color: #fff;
-		border-bottom: solid #F5F5F5 0.15px;
+		border-bottom:solid #F5F5F5 0.15px;
+		display:flex;
+		flex-direction:row;
+		justify-content: space-around;
 	}
 
-	#head img{
+	.head img{
 		width: 35px;
 		height: 35px;
-		position: relative;
 		top: 5px;
 		margin-left: 50px;
 		margin-right: 10px;
 	}
 
-	#head span{
+	.head-left{
 		margin: 5px;
-		color: green;
+		font-color: green;
 		font-size: 30px;
 		font-family: SimSun;
+		align-items: center;
+        font-family: bold;
 	}
 
-	#head ul{
-		list-style-type: none;
-		float: right;
-		margin-right: 70px;
-	}
-
-	#head li{
-		display: inline-block;
-		font-size: 14px;
-		font-weight: bold;
-	}
-
-	#head a{
-		display: block;
+	.head-right li{
+		margin-right: 13px;
+		display: flex;
+		flex-direction: row;
 		width: 100px;
-		padding: 3px;
-		color: black;
+		padding:10px;
 		text-align: center;
 		text-decoration: none;
 		font-family: bold;
 	}
 
-	#head a:hover,a:active {
-		color: orange;
+	.head li{
+		display: inline-block;
+		font-size: 14px;
+		font-weight: bold;
 	}
 
-	#menu{
+	.title{
 		margin: 0 auto;
 		width: 40%;
 		padding: 10px;
 		text-align: center;
 		margin-top: 150px;
 		margin-bottom: 75px;
-		background-image: url(images/background.png);
+		background-image: url(background.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 550px 170px;
 	}
 
-	#menu p{
+	.title p{
 		margin-bottom: 30px;
 		color: #C0C0C0;
 		font-size: 13px;
@@ -75,26 +70,37 @@
 		font-family: "Comic Sans MS", cursive, sans-serif;
 	}
 
-	#pics{
+	.content{
 		margin: 2px auto;
 		width: 90%;
 		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.box{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 
-	.img{
-		display: inline-block;
+	.main{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		margin: 18px;
 		text-align: center;
 		box-shadow: 0 0 20px 20px #F5F5F5;
 		border-radius: 20px;
 	}
 
-	.img img{
+	.main img{
 		width: 400px;
 		height: 300px;
+		justify-content: center;
 	}
 
-	.img p{
+	.main p{
 		margin-top: 30px;
 		margin-bottom: 50px;
 		color: #C0C0C0;
@@ -102,14 +108,18 @@
 		font-style: italic;
 		font-family: "Comic Sans MS", cursive, sans-serif;
 	}
+	.main hr{
+		margin:0 auto;
+	}
 
-	#foot{
+	
+    .foot{
 		margin: 0 auto;
 		text-align: center;
 		margin-top: 140px;
 	}
 
-	#foot img{
+	.foot-logo{
 		width: 60px;
 		height: 60px;
 		padding: 15px;
@@ -119,102 +129,87 @@
 		border-radius: 100px;
 		background-color: #fff;
 	}
-
-	#footp{
-		margin-top: 71px;
-		font-weight: bold;
-	}
-
-	#foot p {
+	.foot-title{
+		margin-top: 50px;
 		color: #C0C0C0;
 		font-size: 13px;
 		font-style: italic;
 		font-family: "Comic Sans MS", cursive, sans-serif;
 	}
 
-	#contact{
-		margin: 0 auto;
-		width: 200px;
-		border-top: solid #F5F5F5 2px;
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-
-	#contact ul{
-		list-style-type: none;
-		text-align: center;
+	.foot-bottom{
 		padding: 1px;
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
 	}
-
-	#contact li{
-		margin: 8px;
-		display: inline-block;
+	.foot-bottom img{
+		margin:8px;
 	}
-
 </style>
 </head>
 <body>
-	<div id="head">
-		<span><img src="images\Logo.png" alt="logo">Cratia</span>
-		<ul>
-			<li><a href="#About">About</a></li>
-			<li><a href="#Menu">Menu</a></li>
-			<li><a href="#Callery">Callery</a></li>
-			<li><a href="#Contact">Contact</a></li>
-		</ul>
+	<div class="head">
+		<div class="head-left"><img src="Logo.png" alt="logo">Cratia</div>
+		<div class="head-right">
+			<li style="color: black">About</li>
+			<li style="color: orange">Menu</li>
+			<li style="color: black">Callery</li>
+			<li style="color: black">Contact</li>
+		</div>
 	</div>
-	<div id="menu">
+	<div class="title">
 		<h1>MENU</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 	</div>
-	<div id="pics">
-		<div class="img">
-			<img src="images\Main Dishes.png" alt="Main Dishes">
+	<div class="content">
+		<div class="main">
+			<img src="Main Dishes.png" alt="Main Dishes">
 			<div>
 				<h1>MAIN DISHES</h1>
 			</div><hr width="30px" color="#F5F5F5">
 			<div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-		</div>
-		<div class="img">
-			<img src="images\Soups.png" alt="Soups">
+		</div class="box">
+		  <div class="main">
+			<img src="Soups.png" alt="Soups">
 			<div>
 				<h1>SOUPS</h1>
 			</div><hr width="30px" color="#F5F5F5">
 			<div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-		</div>
-		<div class="img">
-			<img src="images\Hamburgers.png" alt="Hamburgers">
+		  </div>
+		  <div class="main">
+			<img src="Hamburgers.png" alt="Hamburgers">
 			<div>
 				<h1>HAMBURGERS</h1>
 			</div><hr width="30px" color="#F5F5F5">
 			<div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-		</div>
-		<div class="img">
-			<img src="images\Desserts.png" alt="Desserts">
+		  </div>
+		  <div class="main">
+			<img src="Desserts.png" alt="Desserts">
 			<div>
 				<h1>DESSERTS</h1>
 			</div><hr width="30px" color="#F5F5F5">
 			<div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-		</div>
-		<div class="img">
-			<img src="images\Barbecue.png" alt="Barbecue">
+		  </div>
+		  <div class="main">
+			<img src="Barbecue.png" alt="Barbecue">
 			<div>
 				<h1>BARBECUE</h1>
 			</div><hr width="30px" color="#F5F5F5">
 			<div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-		</div>
-		<div class="img">
-			<img src="images\Salads.png" alt="Salads">
+		  </div>
+		  <div class="main">
+			<img src="Salads.png" alt="Salads">
 			<div>
 				<h1>SALADS</h1>
 			</div><hr width="30px" color="#F5F5F5">
@@ -223,18 +218,18 @@
 			</div>
 		</div>
 	</div>
-	<div id="foot">
-		<img src="images\Logo.png" alt="Logo">
+	<div class="foot">
+		<img class="foot-logo" src="Logo.png" alt="Logo">
 		<hr color="#F5F5F5">
-		<p id="footp">Gratia Restaurant</p>
-		<p>Copyright 2016. All rights reserved by symu</p>
+		<div class="foot-title">
+		<li style="font-weight: bold;">Gratia Restaurant</li>
+		<li>Copyright 2016. All rights reserved by symu</li>
+	    </div>
 	</div>
-	<div id="contact">
-		<ul>
-			<li><a href="http://www.facebook.com" target="_blank"><img src="images\FB.png" alt="facebook"></a></li>
-			<li><a href="http://www.twitter.com" target="_blank"><img src="images\TR.png" alt="twitter"></a></li>
-			<li><a href="http://www.instagram.com" target="_blank"><img src="images\IG.png" alt="instagram"></a></li>
-		</ul>
+	<div class="foot-bottom">
+			<img src="FB.png" alt="facebook">
+			<img src="TR.png" alt="twitter">
+			<img src="IG.png" alt="instagram">
 	</div>
 </body>
 </html>

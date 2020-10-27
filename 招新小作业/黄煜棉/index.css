@@ -1,0 +1,141 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:8px 0px;
+    padding:2px 10px;
+    border-bottom: 1px solid #e7e7e7;
+    position:sticky;
+    top:0;
+    width:100%;
+    background-color: #FFFFFF;
+}
+.logo{
+     display:flex;
+     flex-direction: row;
+     margin: 14px;
+}
+.restaurant-logo{
+    width:35px;
+    height:35px;
+    margin:8px
+}
+.restaurant-title{
+    font-size:1.1em;
+    font-weight: bold;
+}
+
+
+.navigation{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-around ;
+    margin:30px;
+}
+.navigation a{
+    margin:0px 20px;
+}
+.navigation a:link{
+    text-decoration: none;
+    color:#000000;
+}
+.navigation a:hover,a:active {
+    text-decoration: none;
+    color:#DB9D6B;
+}
+
+
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("./images/background.png") no-repeat center ;
+    background-size: 532px 160px;
+    margin:50px;
+    height:160px
+}
+.background-title{
+    font-size: 1.6em;
+    font-weight:bold;
+    
+}
+.desc{
+    font-size:0.8em ;
+    color:#848690;
+    margin:-10px;
+}
+
+.gallery{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:70px;
+}
+.gallery-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:15px;
+    text-align: center;
+    box-shadow: #e7e7e7 0 1px 60px 10px;
+}
+.gallery-box img{
+    width:338px;
+    height:244px;
+}
+.gallery-box p{
+    font-size: 0.4em;
+    color:#848690;
+    margin-bottom: 60px;
+}
+
+
+
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:200px 10px;
+    border-top: #e7e7e7 solid 1px;  
+}
+.footer-logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo img{
+    border-radius: 50% ;
+    border:solid #e7e7e7 1px;
+    padding:20px;
+    width:45px;
+    height:45px;
+    position:relative ;
+    top:-46px;
+    background-color: #FFFFFF;
+}
+.footer-logo-title{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.footer-logo-desc{
+    font-size: 0.7em;
+    color:#848690;
+    margin-top:-4px;
+    margin-bottom: 20px;
+}
+.footer-button{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer-button img{
+    width:15px;
+    height:15px;
+}
+.footer-button a{
+    margin:0px 5px;
+}
