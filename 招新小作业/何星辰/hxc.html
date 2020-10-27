@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:8px 0px;
+    padding:2px 10px;
+    border-bottom: 1px solid #e7e7e7;
+    position:sticky;
+    top:0;
+    width:100%;
+    background-color: #FFFFFF;
+}   
+.logo{
+     display:flex;
+     flex-direction: row;
+     margin: 14px;
+}
+.restaurant-logo{
+    width:25px;
+    height:25px;
+    margin:13px
+}
+.restaurant-title{
+    font-size:1.1em;
+    font-weight: bold;
+}
+
+
+.navigation{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-around ;
+    margin:30px;
+}
+.navigation a{
+    margin:0px 20px;
+}
+.navigation a:link{
+    text-decoration: none;
+    color:#000000;
+}
+.navigation a:hover,a:active {
+    text-decoration: none;
+    color:#f1750e;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("./images/background.png") no-repeat center ;
+    background-size: 532px 160px;
+    margin:50px;
+    height:160px;
+    color: #848690;
+}
+.background-title{
+    font-size: 2.2em;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color:black
+    
+}
+.desc{
+    font-size:0.8em ;
+    color:#848690;
+    margin:-10px;
+}
+
+.gallery{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:70px;
+}
+.gallery-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:15px;
+    text-align: center;
+    box-shadow: #e7e7e7 0 1px 60px 10px;
+}
+.gallery-box img{
+    width:338px;
+    height:244px;
+}
+.gallery-box p{
+    font-size: 0.4em;
+    color:#848690;
+    margin-bottom: 60px;
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:200px 10px;
+    border-top: #e7e7e7 solid 1px;  
+}
+.footer-logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo img{
+    border-radius: 50% ;
+    border:solid #e7e7e7 1px;
+    padding:20px;
+    width:80px;
+    height:80px;
+    position: relative; 
+    top:-60px;
+    background-color: #FFFFFF;
+}
+.footer-logo-title{
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+    
+}
+.footer-logo-describe{
+    font-size: 1.2em;
+    color:silver;
+    margin-top:-3.5px;
+    margin-bottom: 19px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+}
+.footer-button{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footer-button img{
+    width:30px;
+    height:30px;
+}
+.footer-button a{
+    margin:15px 5px;
+}
+</style>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img class="restaurant-logo" src="./images/Logo.png" alt="Logo.png">
+            <p class="restaurant-title">Gratia</p>
+        </div>
+        <div class="navigation">           
+            <a href="#About">About</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Callery">Callery</a>
+            <a href="#Contact">Contact</a>            
+        </div>
+    </div>
+    <div class="title">
+        <h1 class="background-title"><strong>MENU</strong></h1>
+        <p class="describe"><i>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</i></p>
+    </div>
+    <div class="gallery">
+        <div class="gallery-box">
+			<img src="./images/Main Dishes.png" alt="Main Dishes">
+			<div>
+				<h1>MAIN DISHES</h1>
+            </div>
+            <hr height="0.5px" width="32px" color="#E0E0E0">
+			<div>
+				<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+			</div>
+		</div>
+		<div class="gallery-box">
+			<img src="./images/Soups.png" alt="Soups">
+			<div>
+				<h1>SOUPS</h1>
+            </div>
+			<hr height="0.5px" width="32px" color="#E0E0E0">
+			<div>
+				<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+			</div>
+		</div>
+		<div class="gallery-box">
+			<img src="./images/Hamburgers.png" alt="Hamburgers">
+			<div>
+				<h1>HAMBURGERS</h1>
+            </div>
+            <hr height="0.5px" width="32px" color="#E0E0E0">
+			<div>
+				<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+			</div>
+		</div>
+		<div class="gallery-box">
+			<img src="./images/Desserts.png" alt="Desserts">
+			<div>
+				<h1>DESSERTS</h1>
+            </div>
+            <hr height="0.5px" width="32px" color="#E0E0E0">
+			<div>
+				<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+			</div>
+		</div>
+		<div class="gallery-box">
+			<img src="./images/Barbecue.png" alt="Barbecue">
+			<div>
+				<h1>BARBECUE</h1>
+            </div>
+            <hr height="0.5px" width="32px" color="#E0E0E0">
+			<div>
+				<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+			</div>
+		</div>
+		<div class="gallery-box">
+			<img src="./images/Salads.png" alt="Salads">
+			<div>
+				<h1>SALADS</h1>
+            </div>
+            <hr height="0.5px" width="32px" color="#E0E0E0">
+			<div>
+				<p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></p>
+			</div>
+		</div>
+    </div>
+    <div class="footer">        
+	  <div class="footer-logo">
+        <img src="./images/Logo.png" alt="Logo">
+	    <p class="footer-logo-title">Gratia Restaurant</p>
+	    <p class="footer-logo-describe"><i>Copyright 2016. All rights reserved by symu</i></p>
+	  </div>
+	  <hr width="150px" color="silver" size="0.01">
+	  <div class="footer-button">
+		<a href="http://www.facebook.com" target="_blank"><img src="./images/FB.png" alt="facebook"></a>
+		<a href="http://www.twitter.com" target="_blank"><img src="./images/TR.png" alt="twitter"></a>
+		<a href="http://www.instagram.com" target="_blank"><img src="./images/IG.png" alt="instagram"></a>
+	  </div>
+    </div>
+</body>
+
+</html>
