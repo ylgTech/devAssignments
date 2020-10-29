@@ -115,9 +115,9 @@
     margin-top:-10px;
 }
 .discount{
-    position:relative;
-    right:100px;
-    top:53px;
+    position:absolute;
+    left:222px;
+    top:1459px;
     border-radius: 50px;
     background-color: rgba(129, 60, 60, 0.897);
     font-size:0.6em;
