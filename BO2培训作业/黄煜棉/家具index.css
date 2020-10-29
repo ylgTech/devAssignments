@@ -115,16 +115,19 @@
     margin-top:-10px;
 }
 .discount{
-    position:absolute;
-    left:222px;
-    top:1459px;
-    border-radius: 50px;
-    background-color: rgba(129, 60, 60, 0.897);
+    position:relative;
+    right:-226px;
+    top:-449px; 
+}
+.discount p{
     font-size:0.6em;
+    border-radius: 50px;
+    background-color: rgba(129, 60, 60, 0.897);  
     color:white;
     padding:1px 8px;
     height:15px;
-
+    width:23px;
+    text-align: center;
 }
 
 
