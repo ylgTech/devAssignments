@@ -8,6 +8,7 @@
 .header {
     display: flex;
     justify-content: space-between;
+    position: fixed;
     width: 100%;
     border-bottom: 1px solid #E8E8E8;
 }
@@ -62,13 +63,15 @@ li a.active {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 30px;
+    margin: 100px 30px 30px 30px;
     padding: 35px 0;
     width: 490px;
     height: 148px;
     background: url(../image/background.png);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 999;
+    background-color: rgba(241, 241, 241, 0.295);
 }
 
 .title-head {
