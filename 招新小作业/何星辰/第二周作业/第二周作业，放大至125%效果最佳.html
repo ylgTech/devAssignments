@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+    <style>
+.top{
+    display:block;
+    background: url('./image/top2.png') no-repeat center;
+    width: 1200px;
+    height:500px;
+    background-size: 100% 100%;
+}
+.under_top{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:50px 100px;
+}
+.under_top_content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 488px;
+    height:201px;
+    background:url('./image/sofa.png') no-repeat;    
+    text-align: center;   
+}
+.under_top_content p{
+    font-size: 1.2em;
+    font-weight: bold;
+    color:white;
+}
+.under_top_content a{
+    border-radius: 50px;
+    border:solid 1px white;
+    width:100px;
+    margin-left: 190px;
+    padding:3px;
+    font-size:0.8em;
+    color:white
+}
+.under_top_content a:link,a:visited{
+    text-decoration: none;
+    color:white;
+}
+.under_top_content a:hover,a:active {
+    text-decoration: none;
+    color:red;
+}
+.product{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 100px;
+    border-bottom: solid 1px #e7e7e7;
+}
+.product p{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.product_nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+}
+.product_nav a{
+    padding-left: 20px;
+}
+.product_nav a:link,a:visited{
+    text-decoration: none;
+    color:rgb(150, 150, 150);
+}
+.product_nav a:hover,a:active {
+    text-decoration: none;
+    color:red;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+}
+.products_content{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    margin:30px 20px;
+    text-align:center;
+    font-family:"Times New Roman", Times, serif;
+}
+.products_content img{
+    width:235px;
+    height:300px;
+}
+.mask{
+    position:relative;
+    top:-120px;
+    bottom:0px;
+    background:rgba(219, 12, 12, 0.8);
+    width:100%;
+    opacity: 0;
+}
+.mask p{
+    font-size: 0.9em;
+    text-align: center;
+    color:white;    
+}
+.products_content:hover .mask{
+    opacity: 1;
+}
+.products_price{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top:-10px;
+}
+.discount{
+    position:relative;
+    right:-80px;
+    top:-350px;
+    border-radius: 50px;
+    background-color: rgba(119, 56, 56, 0.897);
+    font-size:0.1em;
+    color:white;
+    padding:1px 8px;
+    height:15px;
+
+}
+
+
+.member{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:960px;
+    height:370px;
+    background:url('./image/sofa1.png') no-repeat ;
+    background-size: 100% 100%;
+    margin-left: 100px;
+}
+
+.member_position{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left:-350px;
+    top:-100px;  
+}
+.member_only{
+    font-size: 3em;
+    font-weight: bold;
+    color:rgb(118,99,91)
+}
+.policy{
+    font-size: 1.4em;
+    color:rgb(118,99,91);
+    margin-top:-40px;
+}
+.member a{
+    border-radius: 50px;
+    border:solid 1px rgb(118,99,91);
+    font: 0.8em rgb(118,99,91);
+    text-align: center;
+}
+.member a:link{
+    text-decoration: none;
+}
+.member a:hover,a:active {
+    text-decoration: none;
+    color:red;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:60px 0px;
+}
+.story p{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin:2px 0px;
+}
+
+.under_story{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 110px;
+    padding-bottom: 100px;
+    border-bottom: solid 1px rgb(201, 200, 200);
+}
+.under_story_content{
+    display:flex;
+    flex-direction: column;
+}
+.under_story img{
+    width:300px;
+    height:300px;
+}
+.under_story_content a{
+    border-radius: 50px;
+    background-color: darkgray;
+    font-size: 0.8em;
+    color:white;
+    text-align: center;
+    width:150px;
+    padding:8px;
+    position: relative;
+    left:80px;
+    top:-14px;
+    text-decoration: none;
+}
+.under_story_content a:hover{
+    border-radius: 50px;
+    background-color: rgba(255,0, 0, 0.8);
+    font-size: 0.8em;
+    color:white;
+    text-align: center;
+    width:150px;
+    padding:8px;
+    position: relative;
+    left:80px;
+    top:-14px;
+    text-decoration: none;
+}
+.story_text1{
+    font-size: 1.0em;
+    font-weight: bold;
+    text-align: center;
+    font-family:"Times New Roman", Times, serif;
+}
+.story_text2{
+    font-size: 0.6em;
+    margin:0px 10px;
+    font-family:"Times New Roman", Times, serif;
+}
+
+
+.popularity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:60px 0px;
+}
+.popularity p{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin:2px 0px;
+}
+
+.popularity1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.popularity1_content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:0px 50px;
+}
+.coathanger{
+    width:94px;
+    height:229px;
+}
+.heart{
+    width:25px;
+    height:35px;
+    position: relative;
+    left:-25px;
+    top:30px;
+}
+.popularity1_content p{
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top:3px;
+}
+
+.popularity2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:20px 120px;
+}
+.popularity2_content{
+    background:url('./image/sofa2.png') center;
+    background-size:100% 100%;
+    width:304px;
+    height:163px;
+}
+.popularity2_content p{
+    font-size: 1.1em;
+    font-weight: bold;
+    position: relative;
+    top:10px;
+    left:15px;
+}
+.popularity2_content img{
+    position: relative;
+    top:18px;
+    left:24px;
+}
+
+
+.foot{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.foot_texts{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-around;
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+.foot_text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 30px;
+    width:180px;
+}
+.foot_p1{
+    font-size: 1.1em;
+    color: rgb(207, 205, 205);
+    padding-bottom: 3px; 
+    border-bottom: 1px solid rgb(207, 205, 205);
+    font-family:"Times New Roman", Times, serif;
+}
+.foot_p{
+    font-size: 0.6em;
+    color: rgb(207, 205, 205);
+    font-family:"Times New Roman", Times, serif;
+}
+
+
+.search{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.input_box{
+    border-radius: 50px;
+    background-color: rgb(207, 205, 205);
+    height:32px;
+    width:300px;
+    outline:none;
+}
+.search button{
+    display:hidden;
+    position:relative;
+    left:-45px;
+    top:5px;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(207, 205, 205);
+    outline:none；
+}
+input:-webkit-autofill,textarea:-webkit-autofill,select:-webkit-autofill{
+    box-shadow:0 0 0px 1000px rgb(207,205,205) inset;}
+    </style>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>爆肝出来的作业</title>
+	<link rel="stylesheet" type="text/css" href="家具index.css">
+</head>
+<body>
+    <div class="top">
+    </div>
+    <div class="under_top">
+        <div class="under_top_content">
+            <p>新品9折</p>
+            <a href="#">detail view</a>
+        </div>
+        <div class="under_top_content">
+            <p>新品9折</p>
+            <a href="#">detail view</a>
+        </div>
+    </div>
+    <div class="product">
+        <p>Our Product</p>
+        <div class="product_nav">
+            <a href="#">新品</a>
+            <a href="#">人气</a>
+            <a href="#">精选</a>   
+        </div>
+
+    </div>
+    <div class="products">
+        <div class="products_content">
+            <a href="#"><img src="./image/vase.png" alt="detail view"></a>
+            <p><strong>这是一个标题</strong></p>
+            <p class="products_price">¥599</p>
+            <div class="mask">
+                <p>detail view</p>
+            </div>
+        </div>
+        <div class="products_content">
+            <a href="#"><img src="./image/vase.png" alt="detail view"></a>
+            <p><strong>这是一个标题</strong></p>
+            <p class="products_price">¥599</p>
+            <div class="mask">
+                <p>detail view</p>
+            </div>
+        </div>
+        <div class="products_content">
+            <a href="#"><img src="./image/vase.png" alt="detail view"></a>
+            <p><strong>这是一个标题</strong></p>
+            <p class="products_price">¥599</p>
+            <div class="mask">
+                <p>detail view</p>
+            </div>
+        </div>
+        <div class="products_content">
+            <a href="#"><img src="./image/vase.png" alt="detail view"></a>
+            <p><strong>这是一个标题</strong></p>
+            <p class="products_price">¥599</p>
+            <div class="mask">
+                <p>detail view</p>
+            </div>
+        </div>
+        <div class="products_content" >
+            <a href="#"><img src="./image/vase.png" alt="detail view"></a>
+            <p><strong>这是一个标题</strong></p>
+            <p class="products_price">¥599</p>
+            <div class="discount">90%</div>
+            <div class="mask">
+                <p>detail view</p>
+            </div>
+        </div>
+        
+        <div class="products_content">
+            <a href="#"><img src="./image/vase.png" alt="detail view"></a>
+            <p><strong>这是一个标题</strong></p>
+            <p class="products_price">¥599</p>
+            <div class="mask">
+                <p>detail view</p>
+            </div>
+        </div>
+        <div class="products_content">
+            <a href="#"><img src="./image/vase.png" alt="detail view"></a>
+            <p><strong>这是一个标题</strong></p>
+            <p class="products_price">¥599</p>
+            <div class="mask">
+                <p>detail view</p>
+            </div>
+        </div>
+        <div class="products_content">
+            <a href="#"><img src="./image/vase.png" alt="detail view"></a>
+            <p><strong>这是一个标题</strong></p>
+            <p class="products_price">¥599</p>
+            <div class="mask">
+                <p>detail view</p>
+            </div>
+        </div>
+    </div>
+    <div class="member">
+        <div class="member_position">
+            <p class="member_only">会员专享</p>
+            <p class="policy">加入会员享8折购</p>
+            <a href="#">detail view</a>
+        </div>
+    </div>
+    <div class="story">
+        <p>Our Story</p>
+        <p>最新潮流</p>
+    </div>
+    <div class="under_story">
+        <div class="under_story_content">
+            <img src="./image/kitchen.png" alt="kitchen">
+            <a href="#">detail view</a>
+            <p class="story_text1"><strong>哥斯达，产品</strong></p>
+            <p class="story_text2">包图网隶属于上海品图网络科技有限公司，作为国内第一家宣扬“包你满意”的设计素材网站，包图网立志打造一个解决国内设计素材质量参差不齐问题的设计网站。</p>
+        </div>
+        <div class="under_story_content">
+            <img src="./image/kitchen.png" alt="kitchen">
+            <a href="#">detail view</a>
+            <p class="story_text1"><strong>哥斯达，产品</strong></p>
+            <p class="story_text2">包图网隶属于上海品图网络科技有限公司，作为国内第一家宣扬“包你满意”的设计素材网站，包图网立志打造一个解决国内设计素材质量参差不齐问题的设计网站。</p>
+        </div>
+        <div class="under_story_content">
+            <img src="./image/kitchen.png" alt="kitchen">
+            <a href="#">detail view</a>
+            <p class="story_text1"><strong>哥斯达，产品</strong></p>
+            <p class="story_text2">包图网隶属于上海品图网络科技有限公司，作为国内第一家宣扬“包你满意”的设计素材网站，包图网立志打造一个解决国内设计素材质量参差不齐问题的设计网站。</p>
+        </div>
+    </div>
+    <div class="popularity">
+        <p>Our Product</p>
+        <p>人气产品</p>
+    </div>
+    <div class="popularity1">
+        <div class="popularity1_content">
+            <img class="coathanger" src="image/coathanger.png" alt="产品">
+            <img class="heart" src="image/heart.png" alt="喜欢吗？">
+            <span><strong>这是一个标题</strong></span>
+            <p>¥599</p>
+        </div>
+        <div class="popularity1_content">
+            <img class="coathanger" src="image/coathanger.png" alt="产品">
+            <img class="heart" src="image/heart.png" alt="喜欢吗？">
+            <span><strong>这是一个标题</strong></span>
+            <p>¥599</p>
+        </div>
+        <div class="popularity1_content">
+            <img class="coathanger" src="image/coathanger.png" alt="产品">
+            <img class="heart" src="image/heart.png" alt="喜欢吗？">
+            <span><strong>这是一个标题</strong></span>
+            <p>¥599</p>
+        </div>
+        <div class="popularity1_content">
+            <img class="coathanger" src="image/coathanger.png" alt="产品">
+            <img class="heart" src="image/heart.png" alt="喜欢吗？">
+            <span><strong>这是一个标题</strong></span>
+            <p>¥599</p>
+        </div>
+        <div class="popularity1_content">
+            <img class="coathanger" src="image/coathanger.png" alt="产品">
+            <img class="heart" src="image/heart.png" alt="喜欢吗？">
+            <span><strong>这是一个标题</strong></span>
+            <p>¥599</p>
+        </div>
+    </div>    
+    <div class="popularity2">
+        <div class="popularity2_content">
+            <p>椅子专区</p>
+            <a href="#"><img src="image/arrow.png" alt="跳转"></a>
+        </div>
+        <div class="popularity2_content">
+            <p>椅子专区</p>
+            <a href="#"><img src="image/arrow.png" alt="跳转"></a>
+        </div>
+        <div class="popularity2_content">
+            <p>椅子专区</p>
+            <a href="#"><img src="image/arrow.png" alt="跳转"></a>
+        </div>
+    </div>
+    <div class="foot">
+		<div class="foot_texts">
+			<div class="foot_text">
+				<span class="foot_p1">关于图片</span>
+				<p class="foot_p">图片因光线和产品批次等问题，可能会有差异，请以收到实际货品为准。</p>
+			</div>
+			<div class="foot_text">
+				<span class="foot_p1">7天无理由退换货</span>
+				<p class="foot_p">本店支持7天无理由退换货，买家主观原因的退换货，买家承担邮费，商品质量问题等卖家原因的退换，卖家承担所有邮费。</p>
+			</div>
+			<div class="foot_text">
+				<span class="foot_p1">100%正品保证</span>
+				<p class="foot_p">本店承诺，所售产品均为正品，购买产品请认准授权，谨防假冒劣质。
+				</p>
+			</div>
+			<div class="foot_text">
+				<span class="foot_p1">关于发货</span>
+				<p class="foot_p">每日下午16:00前的订单当日可以发货。本店默认汇通，EMS快递。</p>
+            </div>
+		</div>
+		<div class="search">  
+			<FORM method="GET" action="http://www.google.com/search">    
+				<input type="hidden" value="GB2312">    
+				<input type="hidden" value="GB2312">    
+				<input TYPE="hidden" VALUE="zh-CN"> 
+				<div>  
+					<input class="input_box" TYPE="text" name="q" size="18" maxlength="255"  value="">      
+					<button type="submit"><img src="image/search.png"></button>    
+				</div>
+			</FORM>   
+		</div>
+	</div>
+</body> 
