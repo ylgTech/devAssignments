@@ -1,0 +1,110 @@
+.head
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.head-img
+{
+    width: 25px;
+    height: 25px;
+}
+ul 
+ {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: black;
+    text-align: center;
+    margin-left:50px;
+    text-decoration: none;
+}
+li a.active    
+            {
+                color:Chocolate ;
+            }
+.title
+{
+    margin: 0 auto;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 75px;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: 550px 170px;
+}
+.title p
+{
+    margin-bottom: 30px;
+	color: #C0C0C0;
+	font-size: 13px;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.display
+{
+    display: flex;
+    justify-content: center;
+
+}
+div.img 
+{
+    margin: 50px;
+    border: 1px solid #ccc;
+    width: 395px;
+    box-shadow: 0 0 20px 20px #F5F5F5;
+    border-radius: 20px;
+}
+div.img img 
+{
+    width: 100%;
+    height: auto;
+}
+div.desc 
+{
+    padding: 15px;
+    text-align: center;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+.round
+{
+
+    height: 80px;
+    width:80px;
+    border-radius: 100px;
+    background-color: white;
+    border: 2px solid Gainsboro;
+    background-image: url(Logo.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.last
+{
+    display: flex;
+    justify-content: center;
+}
+.latter
+{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
