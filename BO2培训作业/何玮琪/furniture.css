@@ -1,0 +1,439 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.newpro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.newpro-text {
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    transform: translateY(-145px);
+}
+
+.newpro-button {
+    margin: 8px;
+    border: white solid 1px;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 16px;
+    background-color: rgba(236, 236, 236, 0.096);
+    transform: translateY(-145px);
+}
+
+.ourproduct-up {
+    display: flex;
+    align-items: center;
+    width: 81%;
+    height: 40px;
+    border-bottom: solid 1px #E8E8E8;
+}
+
+.ourproduct-up-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 8px;
+}
+
+.product-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    margin-left: 680px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    color: rgba(160, 160, 160, 0.815);
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: tomato;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    width: 81%;
+    background-repeat: no-repeat;
+}
+
+.gallery-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gallery-box-desc {
+    padding-top: 10px;
+}
+
+.money {
+    font-weight: bold;
+}
+
+.special1 {
+    display: none;
+}
+
+.special2 {
+    display: none;
+}
+
+.gallery-box:hover .special1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 286px;
+    height: 40px;
+    background-color: rgba(255, 83, 52, 0.89);
+    color: white;
+    transform: translateY(-94px);
+}
+
+.gallery-box:hover .special2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 286px;
+    height: 40px;
+    background-color: rgba(255, 83, 52, 0.89);
+    color: white;
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-122.5px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+}
+
+.special2-button {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    padding: 5px;
+    margin-left: 190px;
+    color: white;
+    border-radius: 16px;
+    font-size: 0.85em;
+    background-color: rgba(122, 7, 7, 0.918);
+    transform: translateY(-415px);
+}
+
+div.img {
+    border: 1px solid #D8D8D8;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 35px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 10px 20px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    width: 1223px;
+    height: 451px;
+    margin-top: 60px;
+    background-image: url(../image/sofa1.png);
+}
+
+.member-title {
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 3em;
+    color: rgb(71, 18, 18);
+    font-weight: bolder;
+}
+
+.member-desc {
+    padding-left: 50px;
+    margin-bottom: 8px;
+    color: rgb(102, 58, 26);
+    font-size: 1.5em;
+}
+
+.member-button {
+    display: flex;
+    justify-content: center;
+    border: rgb(29, 27, 27) 2px solid;
+    padding: 8px;
+    margin-left: 53px;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.ourstory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1238px;
+    border-bottom: solid 1px #E8E8E8;
+    padding-bottom: 45px;
+}
+
+.content-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.ourstory-desc {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.ourstory-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ourstory-gallery-box {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+
+.ourstory-gallery-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 388px;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.ourstory-gallery-box-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    width: 140px;
+    padding: 7px 0;
+    font-size: 0.8em;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(133, 132, 132);
+}
+
+.ourstory-gallery-box-button:hover {
+    background-color: rgba(255, 83, 52, 0.89);
+}
+
+.ourstory-gallery-box-title {
+    padding: 10px 0 15px 0;
+    font-weight: bold;
+}
+
+.ourstory-gallery-box-content {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.ourproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.ourproduct-desc {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.ourproduct-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 80%;
+}
+
+.ourproduct-gallery-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourproduct-gallery-box-desc {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    padding-left: 5px;
+}
+
+.chair {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 180px;
+    width: 1360px;
+    align-items: center;
+}
+
+.chair-box {
+    width: 380px;
+    height: 204px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-image: url(../image/sofa2.png);
+}
+
+.chair-box-title {
+    padding-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.chair-box-icon {
+    padding-left: 8px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding: 80px 200px 30px 200px;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-around;
+    width: 83%;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.footer-box-title1 {
+    border-bottom: rgba(255, 255, 255, 0.856) solid 1px;
+    margin-bottom: 8px;
+    width: 44%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.footer-box-title2 {
+    border-bottom: rgba(255, 255, 255, 0.856) solid 1px;
+    margin-bottom: 8px;
+    width: 74%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.footer-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 25px;
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+input[type=text] {
+    padding: 8px 0 8px 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 30%;
+    border: 2px solid;
+    border-radius: 18px;
+    box-sizing: border-box;
+    background-color: rgba(233, 232, 232, 0.555);
+    background-position: 290px 8px;
+    background-repeat: no-repeat;
+}
