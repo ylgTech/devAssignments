@@ -23,6 +23,7 @@ body {
 
 #center {
     flex: 1;
+    transform: translateY(0);
 }
 
 .under_top {
@@ -98,17 +99,37 @@ body {
     margin-top: 50px;
 }
 
+.products_box {
+    position: relative;
+}
+
 .products-text {
     margin-bottom: 0;
 }
 
 .text-products {
-    width: 230px;
     position: absolute;
-    margin-top: -40px;
+    margin-top: -42px;
     height: 34px;
-    background: rgba(255, 99, 71, 1);
+    background: rgba(255, 99, 71, 0.6);
     color: white;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.products_box:hover .text-products {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.text-products:hover {
+    background: rgba(255, 99, 71, 1);
 }
 
 .products_price {
@@ -120,13 +141,13 @@ body {
     height: 299px;
 }
 
-.discount{
+.discount {
     margin-top: -390px;
     margin-left: 160px;
     border-radius: 25px;
     width: 60px;
     height: 25px;
-    background:rgba(155, 74, 74,1) ;
+    background: rgba(155, 74, 74, 1);
     color: white;
     position: absolute;
 }
@@ -226,7 +247,7 @@ body {
     color: white;
 }
 
-.a31{
+.a31 {
     background: tomato;
 }
 
@@ -431,7 +452,7 @@ A.a3:hover {
     background: orangered;
 }
 
-.search input{
+.search input {
     vertical-align: middle;
 }
 
@@ -450,6 +471,7 @@ A.a3:hover {
     border: 2px solid #000000;
     background: #b1b1b1;
     transition: .3s linear;
+    font-size: 30px;
 }
 
 .bar input:focus {
@@ -467,10 +489,8 @@ A.a3:hover {
 .button_bottom {
     border: none;
     margin-left: -50px;
-    
 }
 
-.search-box{
+.search-box {
     margin-bottom: 50px;
 }
-
