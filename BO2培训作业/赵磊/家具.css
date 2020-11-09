@@ -1,0 +1,400 @@
+.top2 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    width: 10px;
+}
+.sofa
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 300px;
+    padding-top: 30px;
+}
+.sofa1
+{
+    background-image: url(sofa.png);
+    margin-top: 20px;
+    padding-top: 300px;
+    width: 600px;
+}
+.text
+{
+    margin-left: 250px;
+    margin-top:-150px;
+    color:white;
+    font-weight: bold;
+    font-size: 1.5em;
+   
+}
+#detail
+{
+    margin-left: 240px;
+    border-radius: 50px;
+    border:solid 1px white;
+    width:100px;
+    padding:3px;
+    font-size:0.8em;
+    color: white;
+    padding-left: 20px;
+}
+
+.ourproduct-line
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+    border-bottom: solid 1px #E8E8E8;
+}
+
+.title
+{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 320px;
+    left: 500px;
+}
+
+.right-title 
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    margin-left: 580px;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+}
+li a
+{
+
+    padding: 14px 16px;
+    color: rgba(160, 160, 160, 0.815);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover
+{
+    color: tomato;
+}
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    width: 1300px;
+    padding-left: 105px;
+}
+.main2
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    width: 1300px;
+    padding-left: 105px;
+}
+.vase
+{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    margin-bottom: 20px;
+    margin:10px;
+}
+.text1
+{
+    margin-left: 50px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.money
+{
+    font-weight: bold;
+    margin-left: 120px;
+}
+.view
+{
+    display: none;
+}
+
+.vase:hover .view
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 287px;
+    height: 30px;
+    background-color: rgba(255, 83, 52, 0.89);
+    color: white;
+    transform: translateY(-94px);
+}
+.vip
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(sofa1.png);
+    width: 1223px;
+    height: 451px;
+    margin-left: 350px;
+
+}
+.vip-title
+{
+    font-size: 3em;
+    color: maroon;
+    font-weight: bolder;
+    margin-top: -150px;
+    margin-left: 200px;
+}
+.vip-undertitle
+{
+
+    margin-left: 200px;
+    color:maroon;
+    font-size: 1.5em;
+}
+.vip-button
+{
+    display: flex;
+    justify-content: center;
+    border:black  solid 2px;
+    margin-left: 200px;
+    width: 160px;
+    border-radius: 30px;
+    margin-top:10px;
+    font-weight: bolder;
+}
+.ourstory
+{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.newfashion
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.story
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 1270px;
+    height: 400px;
+    padding-left: 115px;
+}
+.ktichen
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    margin: 20px 10px;
+    width: 100%;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    padding-left: 400px;
+
+}
+.detailview
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    width: 140px;
+    padding: 7px 0;
+    font-size: 0.8em;
+    color: white;
+    font-weight: 700;
+    background-color: gray
+}
+.detailview:hover {
+    background-color: orangered
+}
+.gesida 
+{
+    padding: 10px 0 15px 0;
+    font-weight: bold;
+}
+.baotuwang
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14.4px;
+    margin-left:200px;
+    margin-right:200px;
+    width: 300px;
+    height: 50px;
+}
+.png
+{
+    padding-left: 400px;
+}
+
+.ourproduct
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 80%;
+}
+
+.titleour
+{
+    padding-left: 910px;
+    font-weight: bolder;
+}
+.renqichanping
+{
+    font-weight: bold;
+    padding-left: 2px;
+    width: 300px;
+    margin-left: 900px;
+    padding-top: 20px;
+}
+.hr
+{
+    color: #E8E8E8;
+    width: 100%;
+    padding-top: 100px;
+}
+.tucengline
+{
+    display: flex;
+    flex-direction: row;
+    padding-right: 1px;
+    padding-left: 8px;
+    border-left-width: 3px;
+    margin-left: 23px;
+    padding-top: 2px;
+    width: 1200px;
+
+}
+.tuceng6
+{
+    padding-left: 150px;
+}
+.money1
+{
+    margin-left: 25px;
+    font-weight: bold;
+}
+.last1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1360px;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.chairs
+{
+    width: 380px;
+    height: 204px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-image: url(sofa2.png);
+}
+.zhuanqu
+{
+font-weight: bolder;
+}
+.foot
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding: 80px 200px 30px 200px;
+    background-color: rgba(0, 0, 0, 0.897);
+    padding-left: 300px;
+}
+.text10
+{
+    display: flex;
+    justify-content: space-around;
+    width: 83%;
+}
+.texta
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.text9title
+{
+    border-bottom: rgba(255, 255, 255, 0.856) solid 1px;
+    margin-bottom: 8px;
+    width: 44%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.856);
+    width: 200px;
+}
+.text8title
+{
+    border-bottom: rgba(255, 255, 255, 0.856) solid 1px;
+    margin-bottom: 8px;
+    width: 74%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.856);
+}
+.textcontext
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 25px;
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.856);
+    width: 200px;
+}
+input[type=text] 
+{
+    padding: 8px 0 8px 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 23%;
+    border: 1px solid;
+    border-radius: 18px;
+    box-sizing: border-box;
+    background-color: rgba(233, 232, 232, 0.555);
+    background-position: 290px 8px;
+    background-repeat: no-repeat;
+}
