@@ -1,0 +1,151 @@
+/* 导航栏 */
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7%;
+    border-bottom: 1px #cac6c6 solid;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+}
+
+.nav-logo-text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-list-text {
+    margin: 6px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav a:hover{
+    background-color:#eee;
+    color: #ff8500 ;
+}
+
+/* 头部 */
+.background {
+	background-image:url('background.png'); 
+    width: 532px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    columns: #f5f5f5;
+    margin: 80px;
+}
+
+.background-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.backgournd-desc {
+    font-size: .9em;
+    font-style: italic;
+    color: gray;
+}
+
+/* 内容 */
+.imgs {
+    margin: 20px auto;
+    box-shadow: 8px 8px 8px 8px #f5f5f5;
+    float: left;
+    width: 355px;
+    height: 400px;
+}
+
+div.img:hover {
+    border: 1px solid silver;
+}
+div.imgs img {
+    width: 100%;
+    height:20 auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-position: center;
+}
+.gallery{
+    display: flex;
+    width: 1185px;
+    height: 1000px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-position: center;
+    margin: auto;
+}
+.gallery-text {
+    font-style: italic;
+    color: gray;
+}
+/* 短横线 */
+.gallery-splitline{
+    height: 10px;
+    width: 30px;
+    border-bottom: 1px solid #cac6c6;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/* 尾巴 */
+.box{
+    width: 81px;
+    height: 81px;
+    border:1px solid #f2e9e9;
+    border-radius: 50%;
+    padding: 8px;
+    transform: translateY(-50px);
+    background-color: white;
+}
+
+.footer{
+    margin-top: 80px;
+    width: 100%;
+    border-top: 1px #f2e9e9 solid;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons {
+    width: 100px;
+    border-top: 1px solid #f2e9e9;
+    padding: 20px;
+    margin: 20px;
+}
+.footer-text {
+    color: #dbd7d7;
+    font-style: italic;
+}
