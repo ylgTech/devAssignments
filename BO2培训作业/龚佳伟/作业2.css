@@ -1,0 +1,220 @@
+
+.head-image
+{
+    width: 100%;
+}
+.head
+{
+    display: flex;
+    justify-content: center;
+}
+.head-background
+{
+    margin: 8px;
+    background-image: url(../image/sofa.png);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.head-font1
+{
+    color: white;
+    font-size: 35px;
+}
+.round1
+{
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 100px;
+    height: 20px;
+    color: white;
+    margin:10px auto
+}
+.round2
+{
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 100px;
+    height: 20px;
+    color: black;
+    margin:10px 20px
+}
+A.a1:link {color: white;text-decoration: none;}
+A.a1:visited {color:white;text-decoration: none;}
+A.a1:active {color:white;text-decoration: underline;}
+A.a1:hover {color: white;text-decoration: underline;}
+.center
+{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+A.a2:link {color: silver;text-decoration: none;}
+A.a2:visited {color:silver;text-decoration: none;}
+A.a2:active {color:silver;text-decoration: underline;}
+A.a2:hover {color: silver;text-decoration: underline;}
+
+A.a3:link {color: silver;text-decoration: none;}
+A.a3:visited {color:red;text-decoration: none;}
+A.a3:active {color:red;text-decoration: underline;}
+A.a3:hover {color: red;text-decoration: underline;}
+.content1
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.content1-img
+{
+    margin: 10px;
+}
+.content1-background
+{
+    width: 300px;
+    height: 375px;
+    background-image: url(../image/vase.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+A.a4:link,A.a4:visited
+{
+    font-size: 0.1px;
+    text-decoration: none;
+    color:gray;
+    text-align: center;
+}
+A.a4:active,A.a4:hover
+{
+    visibility: visible;
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+.center2
+{   
+    margin: auto;
+    width: 1250px;
+    height: 500px;
+    background-image: url(../image/sofa1.png);
+    background-repeat: no-repeat;
+}
+.content2
+{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.font1
+{
+    font-size: 50px;
+    color: saddlebrown;
+}
+.font2
+{
+    font-size: 20px;
+    color: saddlebrown;
+}
+.content3
+{
+    text-align: center;
+    font-size: 25px;
+}
+.bottom1
+{
+    display: flex;
+    justify-content: center;
+}
+A.a5:link,A.a5:visited
+{
+    border-radius: 25px;
+    border: 2px solid black;
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    width: 50%;
+    margin: auto;;
+}
+A.a5:hover,A.a5:active
+{
+
+    background-color: red;
+}
+.font3
+{
+    text-align: center;
+}
+.bottom2
+{
+    background-image: url(../image/sofa2.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 235px;
+}
+.font4
+{
+    margin: 40px 30px;
+}
+.img4
+{
+    margin-left: 40px;
+}
+.bottom3
+{
+    background-color: black;
+    height: 500px;
+}
+.font5
+{
+    color: white;
+}
+.bottom4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 13%;
+    margin: 100px 50px;
+}
+.content4
+{
+    display: flex;
+    justify-content: center;
+}
+.bottom5
+{
+    display: flex;
+    justify-content: center;
+}
+.content5
+{
+    width: 30%;
+    height: 35px;
+    background-color: gray;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.img5
+{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
