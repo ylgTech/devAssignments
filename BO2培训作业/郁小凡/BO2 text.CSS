@@ -1,0 +1,407 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 70px 100px;
+  padding: 0px 225px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 610px;
+  height: 250px;
+  background: url("../image/sofa.png") no-repeat;
+  text-align: center;
+}
+.bottom p {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 900;
+  font-family: "微软雅黑", Sans-serif;
+}
+.bottom a {
+  color: white;
+  font-family: "Comic Sans MS", sans-serif;
+  text-decoration: none;
+  border: solid 1px white;
+  border-radius: 48px;
+  width: 100px;
+  margin-left: 250px;
+}
+.bottom a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+.bottom a:active,
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 325px;
+  border-bottom: solid 1px #e7e7e7;
+}
+.product span {
+  color: black;
+  font-family: "微软雅黑", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.product ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  padding-right: 90px;
+}
+.product a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #a1a0a0;
+  padding-right: 30px;
+}
+.product a:active,
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 325px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content p {
+  font-family: "Comic Sans MS", sans-serif;
+  text-decoration: none;
+  margin: 0px;
+  font-weight: bold;
+}
+.content a {
+  margin-top: 50px;
+}
+.content img {
+  width: 287px;
+  height: 374px;
+}
+.detail {
+  position: relative;
+  top: -105px;
+  bottom: 0px;
+  background: rgba(211, 79, 56);
+  padding-bottom: 20px;
+  width: 100%;
+  opacity: 0;
+}
+.detail1 {
+  position: relative;
+  top: -133px;
+  bottom: 0px;
+  background: rgba(211, 79, 56);
+  padding-bottom: 20px;
+  width: 100%;
+  opacity: 0;
+}
+.detail p {
+  text-align: center;
+  color: white;
+}
+.detail1 p {
+  text-align: center;
+  color: white;
+}
+.content:hover .detail {
+  opacity: 1;
+}
+.content:hover .detail1 {
+  opacity: 1;
+}
+.discount {
+  position: relative;
+  right: -110px;
+  top: -420px;
+  border-radius: 50px;
+  background-color: rgba(119, 56, 56, 0.897);
+  color: white;
+  padding: 2px 8px;
+  height: 25px;
+}
+.member {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1248px;
+  height: 451px;
+  background: url("../image/sofa1.png") no-repeat;
+  background-size: 1248 451;
+  margin: 0px 320px;
+}
+
+.member_position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: -350px;
+  top: -100px;
+}
+.member_only {
+  font-size: 1.7cm;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #6a564d;
+  margin: 0;
+}
+.policy {
+  font-size: 0.6cm;
+  color: #6a564d;
+  font-weight: normal;
+  margin: 0;
+}
+.member_position a {
+  text-align: center;
+  color: #6a564d;
+  font-family: "Comic Sans MS", sans-serif;
+  text-decoration: none;
+  border: solid 1px #6a564d;
+  border-radius: 50px;
+  width: 110px;
+  margin-top: 20px;
+}
+.member_position a:hover,
+a:active {
+  text-decoration: none;
+  color: red;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2cm;
+}
+.story p {
+  font-family: "微软雅黑", sans-serif;
+  font-weight: bolder;
+  font-size: 0.7cm;
+  margin: 6px;
+  color: rgb(44, 44, 44);
+}
+.under_story {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px 325px;
+  border-bottom: solid 1px #e7e7e7;
+}
+.under_story_content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.under_story img {
+  width: 388px;
+  height: 334px;
+  margin-left: 10px;
+}
+.story_text1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(44, 44, 44);
+  margin: 10px 0px;
+}
+.story_text2 {
+  font-family: sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 25px;
+  color: rgb(44, 44, 44);
+  font-size: 0.37cm;
+  margin: 10px 0px;
+}
+.under_story_content a {
+  font-family: "Comic Sans MS", sans-serif;
+  border-radius: 50px;
+  background-color: darkgray;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  width: 150px;
+  padding: 8px;
+  position: relative;
+  left: 120px;
+  top: -14px;
+  text-decoration: none;
+}
+.under_story_content a:hover {
+  font-family: "Comic Sans MS", sans-serif;
+  border-radius: 50px;
+  background-color: rgb(214, 29, 5);
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  width: 150px;
+  padding: 8px;
+  position: relative;
+  left: 120px;
+  top: -14px;
+  text-decoration: none;
+}
+
+.popularity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5cm;
+}
+.popularity p {
+  font-family: "微软雅黑", sans-serif;
+  font-weight: bolder;
+  font-size: 0.7cm;
+  margin: 2px 0px;
+  color: rgb(44, 44, 44);
+  text-align: center;
+}
+.popularities {
+  display: flex;
+  flex-direction: column;
+}
+.popularity1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.popularity1_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 60px 80px;
+}
+.heart {
+  width: 18px;
+  height: 25px;
+  position: relative;
+  left: -25px;
+  top: 25px;
+}
+.popularity1_content span {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.popularity1_content p {
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: black;
+  margin: 0px 10px;
+  text-align: center;
+}
+.popularity2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.popularity2_content {
+  width: 380px;
+  height: 204px;
+  background: url("../image/sofa2.png") no-repeat;
+  background-size: 380 204;
+  margin: 60px 40px;
+}
+.popularity2_content p {
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+.popularity2_content img {
+  position: relative;
+  top: 18px;
+  left: 24px;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(34, 33, 33);
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+.foot_texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+.foot_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 30px;
+  width: 180px;
+}
+.foot_p1 {
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: rgb(207, 205, 205);
+  padding-bottom: 3px;
+  width: fit-content;
+  border-bottom: 1px solid rgb(207, 205, 205);
+  font-family: "宋体", sans-serif;
+}
+.foot_p {
+  font-size: 0.6em;
+  font-weight: bold;
+  color: rgb(207, 205, 205);
+  line-height: 20px;
+  font-family: "微软雅黑", sans-serif;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search input{
+  border-radius: 50px;
+  background-color: rgb(207, 205, 205);
+  height: 32px;
+  width: 300px;
+  outline: none;
+  font-size: 1em;
+  font-weight: bold;
+  font-family:"Comic Sans MS", sans-serif;
+}
+.search button {
+  display: hidden;
+  position: relative;
+  left: -45px;
+  top: 5px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(207, 205, 205);
+  outline: none；;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px rgb(207, 205, 205) inset;
+}
