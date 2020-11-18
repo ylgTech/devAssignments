@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="终极任务.css" />
+    <title>耗子尾汁特色餐馆</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-header">
+            <a id="NAVIGATION" href="http://www.mafengwo.cn/poi/34583072.html" target="_blank" div class="header-left">Voilà</a>
+            <div class="header-right">
+                <div class="header-list">
+                    <a class="header-list-title" href="#menu" onclick="scrollToViewMENU()">MENU</a>
+                    <div class="header-list-desc">Sit amet constetur adipisicing elit. Fugit perspiciatis.</div>
+                </div>
+                <div class="header-list">
+                    <a class="header-list-title" href="#about" onclick="scrollToViewABOUT()">ABOUT</a>
+                    <div class="header-list-desc">Adipisicing elit. Fugit pipsam ratione numquam</div>
+                </div>
+                <div class="header-list">
+                    <a class="header-list-title" href="#events" onclick="scrollToViewEVENTS()">EVENTS</a>
+                    <div class="header-list-desc">Ratione numquam lorem ipsum dolor sit amet tetur.</div>
+                </div>
+                <div class="header-list">
+                    <a class="header-list-title" href="#reservations" onclick="scrollToViewRESERVATIONS()">RESERVATIONS</a>
+                    <div class="header-list-desc">Voluptates animi cupiditate Similique sint.</div>
+                </div>
+                <div class="header-list">
+                    <a class="header-list-title" href="#contact" onclick="scrollToViewCONTACT()" style="color: tomato;">CONTACT</a>
+                    <div class="header-list-desc">Quis nemo odio saepe ullam vitae officiis delectus</div>
+                </div>
+            </div>
+        </div>
+        <div class="header-title">
+            <div class="header-title-up">welcome to Voilà</div>
+            <div class="header-title-down">We offer mouth watering <a span class="underline" href="#french" onclick="scrollToViewMENU()">French cuisine</a></div>
+        </div>
+        <div class="header-two-botton">
+            <a div class="header-button" href="#menu" onclick="scrollToViewMENU()" style="margin-right: 30px;">SEE MENU</a>
+            <a div class="header-button" href="#table" onclick="scrollToViewRESERVATIONS()">FIND A TABLE</a>
+        </div>
+        <a id="botton" href="#details" onclick="scrollToViewABOUT()" div class="header-bottom">
+            <div class="header-bottom-text">Scroll down for details</div>
+            <div class="header-bottom-arrow">
+                <img src="../images/down-arrow-icon.png" alt="down-arrow-icon">
+            </div>
+        </a>
+    </div>
+
+    <div class="about" id="ABOUT">
+        <div class="about-left">
+            <div class="about-content">
+                <div class="about-content-title">About Voila Restaurant</div>
+                <div class="about-content-desc-button">
+                    <div class="about-content-desc">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Donec convallis lorem nec enim tempus viverra condimentum eget dui.quisque ac ornare orci lacinia facilisis velit <span style="color:tomato">eget interdum</span>.</div>
+                    <div class="about-content-desc">Quisque oric neque,euismod vitae turpis quis,accumsan iaculis velit.Nulla lacinia facilisis velit eget interdum.</div>
+                    <a div class="about-content-botton" href="http://www.mafengwo.cn/poi/34583072.html" target="_blank">READ MORE</a>
+                </div>
+            </div>
+            <img class="about-left-img" src="../images/Eric-McGregor-flickr.png" alt="Eric-McGregor-flickr"  height="100%">
+        </div>
+        <div class="about-right">             
+            <!-- 触发弹窗 -->
+            <img class="about-right-top" loading="lazy" id="myImg"  src="../images/glass of wine.png" alt="猜猜看杯里的是什么?  没错！ 就是本店镇店之宝 —— 耗子尾汁！">  
+            <!-- 弹窗 -->
+            <div id="myModal" class="modal">
+                <!-- 关闭按钮 -->
+                <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                <!-- 弹窗内容 -->
+                <img class="modal-content-img" id="img01"  >
+                <!-- 文本描述 -->
+                <div id="caption">猜猜看杯里的是什么?  没错！ 就是本店镇店之宝 —— 耗子尾汁！</div>
+            </div>
+            <div class="about-right-bottom">
+                <img class="about-right-bottom-img-left" src="../images/Restaurant kitchen.png" alt="Restaurant kitchen">
+                <img class="about-right-bottom-img-right" src="../images/foodiesfeed.com_excelent-beef-steak-vegetables.png" alt="foodiesfeed.com_excelent-beef-steak-vegetables" >
+            </div>
+        </div>
+    </div>
+
+    <div class="cuisine" id="MENU">
+        <div class="cuisine-left">
+            <div class="cuisine-left-up">
+                <div class="cuisine-up"> <img  src="../images/Steak and vegetables - Foodies Feed.png" alt="Steak and vegetables - Foodies Feed"></div>
+                <div class="cuisine-up"> <img  src="../images/Beef-steak-pineapple-salad Foodies Feed.png" alt="Beef-steak-pineapple-salad Foodies Feed"></div>
+            </div>
+            <div class="cuisine-left-down">
+                <img  src="../images/Cup cakes.png" alt="Cup cakes">
+            </div>
+        </div>
+        <div class="cuisine-right">
+            <div class="cuisine-right-title">Tasteful French Cuisine
+            </div>
+            <div class="cuisine-text">
+                <div class="cuisine-right-text">Lorem ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,lorem quis bibendum auctor.nisi elit <span style="color: tomato;">consequat ipusum</span>,nec sagiittis sem nibh id elit.</div>
+                <div class="cuisine-right-text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.Nam nec <span style="color: tomato;">tellus a odio</span>tincidunt auctor a ornare odio.This duis sed odio sit amet nibh cursus a sit amet mauris.Morbi
+                    accumsan ipsum vulputate.</div>
+                <a div class="cuisine-button"  onclick="myFunction2()" href="#menu" >VIEW MENU</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="book" id="RESERVATIONS">
+        <div class="book-left">
+            <div class="book-left-title"> Make a Reservation</div>
+            <input type="text" name="search" placeholder="Name*" style="background-image: url(../images/User-icon.png);">
+            <input type="text" name="search" placeholder="Date*" style="background-image: url(../images/Date-icon.png);">
+            <input type="text" name="search" placeholder="Time*" style="background-image: url(../images/Time-icon.png);">
+            <input type="text" name="search" placeholder="Commensals*" style="background-image: url(../images/commensals-icon.png);">
+            <div class="book-left-button" onclick="myFunction1()" >FIND A TABLE</div>
+            <div id="snackbar">Sorry, there is no table available.</div>
+        </div>
+        <div class="book-right">
+            <div class="book-right-title">Upcoming Events</div>
+            <div class="box">
+                <div class="box-left">
+                    <img src="../images/Live music Fridays.png" alt="Live music Fridays">
+                </div>
+                <div class="box-right">
+                    <div class="box-right-title">
+                        Live Music Fridays
+                    </div>
+                    <div class="box-right-title-desc">
+                        <img src="../images/Date-icon.png" alt="Date-icon"><span class="special-time"> February 28th</span>
+                        <img src="../images/Time-icon.png" alt="Time-icon"> 6:00 PM
+                    </div>
+                    <div class="box-right-text">
+                        Morbi accumsan ipusm velit.Nam nec tellus a odio tincident auctor a ornare odio non mauris.
+                    </div>
+                    <a href="http://www.mafengwo.cn/poi/52162516.html"  target="_blank" div class="box-right-addition">
+                        Read more...
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-left">
+                    <img src="../images/Festival.png" alt="Festival">
+                </div>
+                <div class="box-right">
+                    <div class="box-right-title">
+                        Louis XII Food Festival
+                    </div>
+                    <div class="box-right-title-desc">
+                        <img src="../images/Date-icon.png" alt="Date-icon"><span class="time"> March 12th</span>
+                        <img src="../images/Time-icon.png" alt="Time-icon"> 12:00 PM
+                    </div>
+                    <div class="box-right-text">
+                        Lorem ipsum dolor sit amet,consectetur adipiscing elit.Cum atque,odit optio veritatis.
+                    </div>
+                    <a href="http://www.mafengwo.cn/poi/52162516.html"  target="_blank" div class="box-right-addition">
+                        Read more...
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-left">
+                    <img src="../images/magic show.png" alt="magic show">
+                </div>
+                <div class="box-right">
+                    <div class="box-right-title">
+                        Magic show with Karim Diaw
+                    </div>
+                    <div class="box-right-title-desc">
+                        <img src="../images/Date-icon.png" alt="Date-icon"><span class="time">March 22nd</span> 
+                        <img src="../images/Time-icon.png" alt="Time-icon"> 8:00 PM
+                    </div>
+                    <div class="box-right-text">
+                        Vel aliquid porro repellendus neque impedit assumenda quas a libero.
+                    </div>
+                    <a href="http://www.mafengwo.cn/poi/52162516.html"  target="_blank" div class="box-right-addition">
+                        Read more...
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="last" id="CONTACT">
+        <div class="white">
+            <div class="white-left">
+                <div class="white-title">
+                    Book a Table
+                </div>
+                <div class="white-content-left">
+                    Like our restaurant concept? Book a table and taste our dishes on first hand.
+                </div>
+                <a  href="#1" div class="white-left-botton" onclick="document.getElementById('id01').style.display='block'" >
+                    BOOK A TABLE
+                </a>
+                <div id="id01" class="modal-form">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                    <form class="modal-content-form" action="http://www.mafengwo.cn/poi/34583072.html" target="_blank">
+                        <div class="container">
+                            <div class="information">Input your information</div> 
+                            <label><b>User Name</b></label>
+                            <input type="text" placeholder="Enter User Name " name="user name" required>
+                            <label><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <label><b>Repeat Password</b></label>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                            <input type="checkbox" checked="checked"> Remember me
+                            <p>By creating an account you agree to our <a href="http://www.chinesecio.com/about/f_privacy.html" target="_blank">Terms & Privacy</a>.</p>
+                            <div class="clearfix">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                <button type="submit"  class="signupbtn" >Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <img src="../images/Or.png" alt="Or" width="28px" height="17px" class="or">
+            <div class="white-right">
+                <div class="white-title">
+                    Tell to Your Friends
+                </div>
+                <div class="white-content-right">
+                    Some of your friends may like to visit if you recommend us.They'll trust your taste!
+                </div>
+                <div class="white-icon">
+                    <a href="http://www.facebook.com" target="_blank"><img src="../images/Facebook Share button.png" alt="Facebook Share button"></a>
+                    <a href="http://www.twitter.com" target="_blank"><img src="../images/Tweet button.png" alt="Tweet button"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="black">
+            <a href="http://www.mafengwo.cn/poi/34583072.html" target="_blank" div class="black-left">
+                Voilà
+            </a>
+            <div class="black-center">
+                <a  href="#navigation" onclick="scrollToViewNAVIGATION()" div class="black-title">
+                    NAVIGATION
+                </a>
+                <div class="black-center-desc">
+                    <a  href="#menu" onclick="scrollToViewMENU()" div class="black-center-desc-box">
+                        MENU
+                    </a>
+                    <a href="#about" onclick="scrollToViewABOUT()" div class="black-center-desc-box">
+                        ABOUT
+                    </a>
+                    <a href="#events" onclick="scrollToViewEVENTS()" div class="black-center-desc-box">
+                        EVENTS
+                    </a>
+                    <a href="#reservations" onclick="scrollToViewRESERVATIONS()"div class="black-center-desc-box">
+                        RESERVATIONS
+                    </a>
+                    <a href="#contact" onclick="scrollToViewCONTACT()" div class="black-center-desc-box"> 
+                        CONTACT
+                    </a>
+                </div>
+            </div>
+            <div class="black-right">
+                <div class="black-title">
+                    VISIT US
+                </div>
+                <div class="black-right-content">
+                    Nec sagittis sem nibh id elit.Duis sed odio sit amet nibh.
+                    <a href="https://map.baidu.com"  target="_blank"  span style="color:rgb(255,102,52);">
+                        View on the map.
+                    </a>
+                </div>
+                <div class="black-title">
+                    CONNECT WITH US
+                </div>
+                <div class="black-right-icon">
+                    <a href="http://www.facebook.com" target="_blank">
+                        <img src="../images/Facebook icon.png" alt="Facebook icon">
+                    </a>
+                    <a href="http://www.twitter.com" target="_blank">
+                        <img src="../images/Twitter icon.png" alt="Twitter icon">
+                    </a>
+                    <a href="http://www.instagram.com" target="_blank">
+                        <img src="../images/Instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.tripadvisor.cn" target="_blank">
+                        <img src="../images/Trip advisor icon.png" alt="Trip advisor icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="终极任务.js" ></script>
+</html>
