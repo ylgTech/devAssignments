@@ -1,0 +1,418 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(229, 226, 226, 0.911);
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* top */
+
+.top {
+    width: 100%;
+    background-image: url(top.png);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    columns: #f5f5f5;
+}
+
+.nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 7%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    color: #e9dcdc;
+}
+
+.nav-left-text {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: -13px;
+    margin-right: 150px;
+    text-decoration: none;
+    color: rgb(223, 94, 19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.up {
+    font-size: 3.5em;
+    color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.below {
+    color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin: 20px auto;
+}
+
+.botton {
+    margin-top: 40px;
+    color: snow;
+}
+
+.nav-right-text {
+    text-decoration: none;
+    color: #e9dcdc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav a:hover {
+    color: rgb(223, 94, 19);
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: rgb(223, 94, 19);
+}
+
+.top-text {
+    color: snow;
+    margin-top: 100px;
+}
+
+
+/* 环境 */
+
+.environment {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 0;
+    margin-left: 150px;
+}
+
+.en_up {
+    display: flex;
+    flex-direction: row;
+}
+
+.en_up img {
+    margin-top: 50px;
+    transform: scale(1.2) translate(50px, 0);
+}
+
+.en_text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.en_imgs {
+    display: flex;
+    flex-direction: row;
+}
+
+.en_img_s {
+    margin-top: 180px;
+    margin-left: 154px;
+    transform: scale(1.2) translate(-19px, 20px);
+}
+
+img.img_f {
+    transform: scale(1.2);
+    margin-left: 40px;
+}
+
+.text_up {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+
+.text_below {
+    color: gray;
+}
+
+.en_button {
+    background-color: rgb(223, 94, 19);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+
+/* 美食 */
+
+.foods {
+    padding: 110px 135px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: snow;
+}
+
+.up_img img {
+    margin: 5px;
+}
+
+.below_img {
+    margin-top: 5px;
+}
+
+.food_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    padding: 0;
+}
+
+h2 {
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.food_button {
+    background-color: rgb(223, 94, 19);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 300px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+
+/* 表单 */
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 100px;
+    height: 800px;
+}
+
+.texts {
+    width: 50%;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-image: url('https://static.runoob.com/images/mix/searchicon.png');
+    background-position: 380px 10px;
+    background-repeat: no-repeat;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.input {
+    border-radius: 5px;
+    background-color: snow;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 100px;
+    box-shadow: 1px 1px 12px 0px #a59d9d;
+    margin: 20px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.texts {
+    border-radius: 5px;
+    background-color: snow;
+    padding: 0;
+    width: 50%;
+    box-shadow: 1px 1px 12px 0px #a59d9d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.images img {
+    margin-bottom: 70px;
+}
+
+.content_up {
+    color: rgb(223, 94, 19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content_below {
+    color: rgb(223, 94, 19);
+}
+
+.images {
+    margin: 0 10px;
+    transform: translateY(60px);
+}
+
+.head {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+
+
+/* 联系 */
+
+.book_text_up,
+.tell_text_up {
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.tell_text_below {
+    transform: translate(0, -40px);
+}
+
+.box {
+    background-color: snow;
+    transform: translate(-28px, 80px);
+    height: 17px;
+    width: 28px;
+    padding: 16px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: snow;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid gray;
+    padding-right: 50px;
+}
+
+.tell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+
+/* 页尾 */
+
+.footer {
+    background-color: black;
+    color: snow;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 600px;
+    width: 100%;
+}
+
+.footer_center_up,
+.footer_right_up,
+.footer_right_below {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footer_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    margin-left: 200px;
+}
+
+.footer-left-text {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-right: 150px;
+    text-decoration: none;
+    color: rgb(223, 94, 19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer_logo img {
+    margin-right: 50px;
+}

@@ -1,0 +1,321 @@
+    body {
+        width: 100%;
+        margin: 0 auto;
+        background: #f2f2f2;
+        overflow-x: hidden;
+        -webkit-tap-highlight-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* focus  */
+    
+    .focus img {
+        width: 100%;
+    }
+    
+    .background {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        background-position: center;
+        width: 70%;
+    }
+    
+    .background_f {
+        background-image: url(sofa.png);
+        width: 100%;
+        height: 252px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        columns: #f5f5f5;
+        margin: 10px;
+    }
+    
+    .nav {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 7%;
+        border-bottom: 1px #cac6c6 solid;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .nav-left-text {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 6px 20px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav-right-text {
+        margin: 6px 20px;
+        text-decoration: none;
+        color: #7d7878;
+    }
+    
+    .nav a:hover {
+        background-color: #eee;
+        color: red;
+    }
+    
+    .gallery {
+        display: flex;
+        width: 70%;
+        height: 1000px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-position: center;
+        margin: auto;
+    }
+    
+    .imgs {
+        margin: 40px auto;
+        box-shadow: 8px 8px 8px 8px #f5f5f5;
+        float: left;
+        width: 25%;
+        height: 400px;
+    }
+    
+    .imgs img {
+        margin: 10px;
+    }
+    
+    div.desc {
+        text-align: center;
+        background-position: center;
+    }
+    
+    .background_o {
+        background-image: url(sofa1.png);
+        width: 70%;
+        height: 252px;
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        columns: #f5f5f5;
+        margin: 10px;
+        padding-left: 60px;
+    }
+    
+    .background_text1 {
+        font-size: 3em;
+        font-weight: bold;
+        color: rgb(118, 99, 91);
+        transform: translateY(50px);
+    }
+    
+    .background_text2 {
+        font-size: 1.4em;
+        color: rgb(118, 99, 91);
+        transform: translateY(50px);
+    }
+    
+    .background_o a {
+        border-radius: 50px;
+        border: solid 1px rgb(118, 99, 91);
+        font: 0.8em rgb(118, 99, 91);
+        text-align: center;
+        transform: translateY(60px);
+        width: 120px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .under_show {
+        width: 70%;
+        border-bottom: 1px solid #000;
+    }
+    
+    .show_text {
+        height: 50px;
+        margin: 60px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text1 {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: black;
+        margin: 6px 20px;
+    }
+    
+    .text2 {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: black;
+        margin: 6px 20px;
+    }
+    
+    .show_gallery {
+        width: 70%;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px auto;
+        padding-bottom: 100px;
+    }
+    
+    .imgs_show {
+        margin: 40px auto;
+        box-shadow: 8px 8px 8px 8px #f5f5f5;
+        display: flex;
+        flex-wrap: wrap;
+        background-position: center;
+        margin: auto;
+    }
+    
+    .imgs_show a {
+        border-radius: 50px;
+        background-color: darkgray;
+        color: white;
+        text-align: center;
+        width: 150px;
+        padding: 8px;
+        position: relative;
+        left: 120px;
+        top: -20px;
+        text-decoration: none;
+    }
+    
+    .imgs_show a:hover {
+        background-color: red;
+    }
+    
+    .gallery2 {
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+        margin: auto;
+        width: 70%;
+    }
+    
+    .img2s {
+        margin: 40px auto;
+        box-shadow: 8px 8px 8px 8px #f5f5f5;
+        height: 400px;
+    }
+    
+    .imgs_show img {
+        margin: 10px 10px;
+    }
+    
+    .show_gallery_text1 {
+        text-align: center;
+    }
+    
+    .show_gallery_text2 {
+        font-size: 0.8em;
+    }
+    
+    .under_top img {
+        margin: 20px 20px;
+        width: fit-content;
+    }
+    
+    div.desc1 {
+        display: flex;
+    }
+    
+    .gallery4 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        background-position: center;
+        width: 70%;
+    }
+    
+    .background_g {
+        background-image: url(sofa2.png);
+        width: 100%;
+        height: 252px;
+        display: flex;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        columns: #f5f5f5;
+        margin: 10px;
+        padding: 30px;
+    }
+    
+    .background_text3 {
+        transform: translateY(80px);
+    }
+    
+    .footer {
+        width: 100%;
+        background-color: black;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    /* 页尾 */
+    
+    .footer_texts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: space-around;
+        width: 60%;
+    }
+    
+    .footer_text {
+        color: rgb(238, 231, 231);
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 20%;
+    }
+    
+    .gallery-splitline {
+        height: 10px;
+        width: 100px;
+        border-bottom: 1px solid #cac6c6;
+        margin-right: 150px;
+    }
+    /* 搜索栏 */
+    
+    .search {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .input_box {
+        border-radius: 50px;
+        background-color: rgb(207, 205, 205);
+        height: 45px;
+        width: 400px;
+        outline: none;
+    }
+    
+    .search button {
+        display: hidden;
+        position: relative;
+        left: -45px;
+        top: 5px;
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(207, 205, 205);
+        outline: noneï¼›;
+    }
