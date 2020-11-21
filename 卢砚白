@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>bo3</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body style="width:1300px;margin:auto auto;">
+    <div id="column">
+        <div id=bg1>
+            <div id=row>
+                <div id=r1l1><b>Voilà</b></div>
+                <div id=r1l2-5><b id=动画>MENU</b> <P id=italic>Sit dmet constetur adipisicing elit. Fugit perspiciatis</P></div>
+                <div id=r1l2-5><b id=动画>ABOUT</b> <P id=italic>Adipisicing elit. Fugit pipsam ratione numquam</P></div>
+                <div id=r1l2-5><b id=动画>EVENTS</b> <P id=italic>Ratione numquam lorem ipsum dolor sit amet tetur</P></div>
+                <div id=r1l2-5><b id=动画>RESERVATIONS</b> <P id=italic>Voluptates animl cupiditate similique sint.</P></div>
+                <div id=r1l2-5><b id=动画>CONTACT</b> <P id=italic>Quis nemo odio saepe uliam vitae officils delectus</P></div>
+            </div>
+            <div id=r2><b>WELCOME TO VOILÀ</b></div>
+            <div id=r3><p>We offer mouth watering</p><p id=ul>French cuisine</p></div>
+            <div id=r4>
+                <button class="button1 button11">SEE MENU</button>
+                <button class="button1 button11">FIND A TABLE</button>
+            </div>
+            <div id=r5>Scroll down for details</div>
+            <div id=r6>
+                <img border="0" src="down-arrow-icon.png"  alt=down>  
+            </div>
+        </div>
+        <div id=bg2>
+            <div id=row>
+                <div id=column>
+                    <div id=r7title>
+                        <h1>About Voila Restaurant</h1>
+                    </div>
+                    <div id=r7text1>
+                        <p>Lorem lpsum dolor sit amet,consectetur adipicing elit.Donec 
+                       convallis lorem nec enim tempus viverra condimentum eget
+                       dul.Quisque ac ornare orci lacinia facltlsis velit </p>
+                    </div>
+                    <div id=eget>
+                        eget nterdum.
+                    </div>
+                    <div id=r7text2>
+                        Quisque orci neque,euismod vitae turpis quis,accumsan 
+                        laculls velit.Nulla lacinia facilisis velit eget interdum.
+                    </div>
+                    <div id=BUTTON2>
+                        <button class="button2 button21">READ MORE</button>
+                    </div>
+                </div>
+                <div id=wine>
+                    <img border="0"  src="glass of wine.png" alt="wine" width="730" height="460">
+                </div>
+            </div>
+                <div id=r8row>
+                    <div id=r8></div>
+                    <div id=r8></div>
+                    <img border="0"  src="Eric-McGregor-flickr.png" alt="wine" width="490" height="360">
+                    <div id=r8></div>
+                    <img border="0"  src="Restaurant kitchen.png" alt="wine" width="325" height="230">
+                    <div id=r8></div>
+                    <img border="0"  src="foodiesfeed.com_excelent-beef-steak-vegetables.png" alt="wine" width="244" height="230"> 
+                </div>
+            </div>
+        </div>
+        <div id=row>
+            <div id=column>
+                <div style="margin-bottom: 70px;"></div>
+                <div id=row>
+                    <div id=left></div>
+                    <div id=STYLE>
+                        <img  border="0" src="Steak and vegetables - Foodies Feed.png" alt="Pulpit rock" width="230" height="230">
+                    </div>
+                    <div id=STYLE>
+                        <img  border="0" src="Beef-steak-pineapple-salad Foodies Feed.png" alt="Pulpit rock" width="230" height="230">
+                    </div>
+                </div>
+                <div id=row>
+                    <div id=left></div>
+                    <div id=STYLE>
+                        <img  border="0" src="Cup cakes.png" alt="Pulpit rock" width="490" height="230">
+                    </div>
+                </div>
+            </div>
+            <div id=column>
+                <div id=r9title>
+                    <b>Tasteful French Cuisine</b>
+                </div>
+                <div id=r9text1>
+                    Lorem lpsum roin gravida nibh vel velit auctor aliquet Aenean
+                    sollicitudin,lorem quis bibendum auctor,nisi elit 
+                </div>
+                <div id=consequat>consequat</div>
+                <div id=ipsum>ipsum</div>
+                <div id=r9text1nec>
+                    ,nec sagittis sem nibh id elit.
+                </div> 
+                <div id=r9text2>
+                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                    Morbi accumsan ipsum velit.Nam nec
+                </div>
+                <div id=tellus>tellus a odio</div>
+                <div id=tincidunt>tincidunt</div>
+                <div id=r9text2>
+                    auctor a ornare odio.This duis sed odio sit amet nibh cursus a
+                    sit amet mauris.Morbi accumsan ipsum vulputate.
+                </div>
+                <div id=BUTTON3>
+                    <button class="button3 button31">VIEW MENU</button>
+                </div>
+            </div>
+        </div>
+        <div style="margin-bottom: 70px;"></div>
+        <div id=bg3>
+            <div id=row>
+                <div id=r10l1>
+                    <div id=column>
+                        <div id=r10title1>
+                            <b>Make a Reservation</b>
+                        </div>
+                        <div id=输入框>
+                            <form>
+                                <input class="user" type="text" name="search" placeholder="Name*">
+                            </form>                      
+                        </div>
+                        <div id=输入框>
+                            <form>
+                                <input class="date" type="text" name="search" placeholder="Date*">
+                            </form>                      
+                        </div>
+                        <div id=输入框>
+                            <form>
+                                <input class="time" type="text" name="search" placeholder="Time*">
+                            </form>                      
+                        </div>
+                        <div id=输入框>
+                            <form>
+                                <input class="commensals" type="text" name="search" placeholder="Commensals*">
+                            </form>                      
+                        </div>
+                        <div id=BUTTON4>
+                            <button class="button4 button41"><div style=" letter-spacing:2px;">FIND A TABLE</div></button>
+                        </div>
+                    </div>
+                </div>
+                <div id=r10l2>
+                    <div id=column>
+                        <div id=r10title2>
+                            <b>Upcoming Events</b>
+                        </div>
+                        <div id=r10content>
+                            <div id=row>
+                                <div id=column>
+                                    <img id=r10pic border="0" src="Live music Fridays.png" alt="Pulpit rock" >
+                                    <img id=r10pic border="0" src="Festival.png" alt="Pulpit rock" >
+                                    <img id=r10pic border="0" src="magic show.png" alt="Pulpit rock" >
+                                </div>
+                                <div id=r10picRight>
+                                    <div id=r10sectitle>
+                                        <b>Live Music Fridays</b>
+                                    </div>
+                                    <div id=row>
+                                        <img id=dtpic border="0" src="Date-icon.png" alt="Pulpit rock" width="15" height="15">
+                                        <div id=date>
+                                            <b> Februaury 28th</b>
+                                        </div>
+                                        <img id=dtpic border="0" src="Time-icon.png" alt="Pulpit rock" width="15" height="15">
+                                        <div id=date>
+                                            <b>6:00 PM</b>
+                                        </div>
+                                      
+                                    </div>
+                                    <p>
+                                        Morbi accumsan ipsum velit.Nam nec tellus a
+                                        odio tincidunt auctor a ornare odio non mauris.
+                                    </p> 
+                                    <div id=read>
+                                        Read more...
+                                    </div>   
+                                    <div id=r10sectitle>
+                                        <b>Louis XII Food Festival</b>
+                                    </div>
+                                    <div id=row>
+                                        <img id=dtpic border="0" src="Date-icon.png" alt="Pulpit rock" width="15" height="15">
+                                        <div id=date>
+                                            <b> March 12th</b>
+                                        </div>
+                                        <img id=dtpic border="0" src="Time-icon.png" alt="Pulpit rock" width="15" height="15">
+                                        <div id=date>
+                                             <b>12:00 PM</b>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet,consectetur
+                                        adipisicing elit.Cum atque,odit optio veritatis.
+                                    </p>
+                                    <div id=read>
+                                        Read more...
+                                    </div>   
+                                    <div id=r10sectitle>
+                                        <b>Magic show with Karim Diaw</b>
+                                    </div>
+                                    <div id=row>
+                                        <img id=dtpic border="0" src="Date-icon.png" alt="Pulpit rock" width="15" height="15">
+                                        <div id=date>
+                                            <b> March 22nd</b>
+                                        </div>
+                                        <img id=dtpic border="0" src="Time-icon.png" alt="Pulpit rock" width="15" height="15">
+                                        <div id=date>
+                                            <b>8:00 PM</b>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Vel aliquid porro repelldus neque impedit
+                                        assumenda quas a libero.
+                                    </p>
+                                    <div id=read>
+                                        Read more...
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+        <div id=r11>
+            <div id=row>
+                <div id=r11l1>
+                    <div id=column>
+                        <div id=r11title>
+                            <b>Book a Table</b>
+                        </div>
+                        <div id=r11text>
+                            Like our restaurant concept?Book a table
+                            and taste our dishes on first hand.
+                        </div>
+                        <div id=BUTTON5>
+                            <button class="button5 button51">BOOK A TABLE</button>
+                        </div>
+                    </div>
+                </div>
+                <div id=r11l2>
+                    <div id=hr></div>
+                    <img id=or border="0" src="Or.png" alt="Pulpit rock" width="31" height="17">
+                    <div id=hr></div>
+                </div>
+                <div id=r11l3>
+                    <div id=r11title>
+                        <b>Tell to Your Friends</b>
+                    </div>
+                    <div id=r11text>
+                        Some of your friends may like to visit if you
+                        recommend us.They'll trust your taste!
+                    </div>
+                    <div id=row>
+                        <div id=logo1>
+                            <img  border="0" src="Facebook Share button.png" alt="Pulpit rock" > 
+                        </div>
+                        <div id=logo2>
+                            <img  border="0" src="Tweet button.png" alt="Pulpit rock" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id=r12>
+            <div id=r12l1>
+                Voilà
+            </div>
+            <div id=r12l2>
+                <div id=r12l2title>
+                    NAVIGATION
+                </div>
+                <div id=r12l2text>
+                    MENU
+                </div>
+                <div id=r12l2text>
+                    ABOUT
+                </div>
+                <div id=r12l2text>
+                    EVENTS
+                </div>
+                <div id=r12l2text>
+                    RESERVATIONS
+                </div>
+                <div id=r12l2text>
+                    CONTACT
+                </div>
+            </div>
+            <div id=r12l3>
+                <div id=r12l3title>
+                    VISIT US
+                </div>
+                <div id=r12l3text>
+                    Nec sagittis sem nibh id elit.Duis sed
+                    odio sit amet nibh.
+                </div>
+                <div id=View>
+                    View on the map
+                </div>
+                <div id=r12l3title>
+                    CONNECT WITH US
+                </div>
+                <div id=r12l3pic>
+                    <img id=lastonefacebook border="0" src="Facebook icon.png" alt="Pulpit rock" >
+                    <img id=lastone border="0" src="Twitter icon.png" alt="Pulpit rock" >
+                    <img id=lastone border="0" src="Instagram.png" alt="Pulpit rock" >
+                    <img id=lastone border="0" src="Trip advisor icon.png" alt="Pulpit rock" >
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
