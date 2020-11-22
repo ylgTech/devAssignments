@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+	.search{
+		text-decoration: none;
+		color: rgb(255,102,52);
+	}
+	.content-one{
+		background-image: url(images/top.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		color: white;
+		height: 700px;
+	}
+	.content-one-top{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+    }
+    .content-one-top-left{
+    	width: 8%;
+        height: 80px;
+    	margin-left: 8%;
+    	font-size: 40px;
+    }
+    .content-one-top-right-first{
+    	width: 11%;
+    	margin-right: 3%;
+    	margin-left: 6%;
+    }
+    .content-one-top-right-second{
+    	width: 11%;
+    	margin-right: 3%;
+    }
+    .content-one-top-right-third{
+    	width: 11%;
+    	margin-right: 3%;
+    }
+    .content-one-top-right-forth{
+    	width: 11%;
+    	margin-right: 3%;
+    }
+    .content-one-top-right-fifth{
+    	width: 11%;
+    	margin-right: 13%;
+    }
+    .content-one-center{
+    	text-align: center;
+    	margin-top: 170px;
+    	list-style: none;
+    }
+    .content-one-twin{
+    	display: flex;
+    	justify-content: center;
+    	flex-direction: row;
+    	align-items: center;
+    	margin-top: 45px;
+    	margin-bottom: 120px;
+    	list-style: none;
+    	width: 100%;
+    }
+    .content-one-twin-left{
+    	width: 18%;
+    	height: 40px;
+    	background-color: rgb(255,102,52);
+    	margin-right: 1%;
+    	text-align: center;
+    	padding-top: 12px;
+    	border-radius: 9px;
+    }
+    .content-one-twin-right{
+    	width: 18%;
+    	height: 40px;
+    	background-color: black;
+        opacity:0.6;
+        margin-left: 1%;
+        text-align: center;
+    	padding-top: 12px;
+    	border-radius: 9px;
+    }
+    .content-one-foot{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+    	height: 70px;
+    	margin-bottom: 40px;
+    	font-family: Comic Sans MS,  sans-serif;
+    }
+    .content-two{
+    	display: flex;
+    	flex-direction: column;
+    	padding-top: 100px;
+    	width: 85%;
+    	padding-left: 15%;
+    	padding-bottom: 100px;
+    	background-color: #F7F7F7;
+    }
+    .content-two-up{
+    	display: flex;
+    	flex-direction: row;
+        justify-content: center;
+    	align-items: center;
+    }
+    .content-two-up-left{
+    	margin-right: 4%;
+    }
+    .content-two-up-left-button{
+    	display: flex;
+        justify-content: center;
+        align-items: center;
+    	width: 42%;
+    	height: 42px;
+    	background-color: rgb(255,102,52);
+    	text-align: center;
+    	margin-left: 52%;
+    	border-radius: 7px;
+    	color: white;
+    	font-family: ‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+    	font-size: 14px;
+    	font-weight: bold;
+    }   
+    .content-two-down{
+    	display: flex;
+    	flex-direction: row;
+    	align-items: flex-end;
+    	justify-content: center;
+    }
+    .content-two-down img{
+        margin-top: -6%;
+    	margin-left: 0.5px;
+    }
+    .content-three{
+    	display: flex;
+    	flex-direction: row;
+    	align-items: center;
+    	justify-content: center;
+    	margin-top: 100px;
+    	margin-left: 13%;
+    	margin-right: 13%;
+    	margin-bottom: 100px;
+    }
+    .content-three-left{
+    	display: flex;
+    	flex-direction: row;
+    	flex-wrap: wrap;
+    	justify-content: flex-start;
+    	align-items: center;
+    }
+    .content-three-left img{
+    	margin-left: 2%;
+    	margin-right: 1%;
+    	margin-top: 10px;
+    }
+    .content-three-right{
+    	width: 75%;
+    }
+    .content-three-right-button{
+    	display: flex;
+        justify-content: center;
+        align-items: center;
+    	width: 42%;
+    	height: 42px;
+    	background-color: rgb(255,102,52);
+    	text-align: center;
+    	margin-left: 52%;
+    	margin-top: 40px;
+    	border-radius: 7px;
+    	color: white;
+    	font-family: ‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+    	font-size: 14px;
+    	font-weight: bold;
+
+    }
+    .content-four{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+    	padding-top: 100px;
+    	padding-bottom: 100px;
+    	background-color: #F7F7F7;
+    }
+    .content-four-left{
+    	background-color: rgb(255,255,255);
+    	align-items: center;
+       	width: 39%;
+    	height: 660px;
+    	margin-left: 8%;
+    	margin-right: 2%;
+    	box-shadow: 0 10px 10px 10px rgb(233,233,233);
+    	text-align: center;
+    }
+    .content-four-left form{
+    	width:85%;
+    	margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lists{
+    	width:80%;
+    	margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(247,247,247);
+        border-radius: 8px;
+    }
+    .content-four-left input{
+    	background-color: rgb(247,247,247);
+        width: 100%;
+        padding: 15px;
+        border: 2px #F7F7F5;
+        outline: none;
+        margin: 10px 0;
+    	opacity: 0.3;
+    	font-family: Comic Sans MS,  sans-serif;
+    }
+    .content-four-left img{
+    	position: relative;
+        right:35px;
+    	margin-left: 50px;
+    }
+    .content-four-right{
+    	width: 39%;
+    	height: 660px;
+    	background-color: rgb(255,255,255);
+    	margin-left: 2%;
+    	margin-right: 8%;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	box-shadow: 0 10px 10px 10px rgb(233,233,233);
+    }
+    .content-four-right-text{
+    	font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .content-four-right-title{
+    	color: rgb(255,102,52); 
+    	font-family: Georgia, ‘Times New Roman’, Times, serif; 
+    	font-weight: bold;
+    	margin-bottom: 6px;
+    }
+    .content-four-right-time{
+    	display: flex;
+    	flex-direction: row;
+    	align-items: center;
+    	margin-bottom: 8px;
+    	font-size: 11px;
+    	font-weight: bold;
+    }
+    .content-four-right-time img{
+    	margin-right: 2px;
+    	margin-left: 2px;
+    }
+    .content-four-right-main{
+    	font-size: 13px;
+    }
+    .content-four-right-first{
+    	width: 90%;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+    	margin-left: 3%;
+    	margin-bottom: 18px;
+    	margin-top: 18px;
+    }
+    .content-four-right-second{
+    	width: 90%;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+    	margin-left: 3%;
+    	margin-bottom: 18px;
+    	margin-top: 18px;
+    }
+    .content-four-right-third{
+    	width: 90%;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+    	margin-left: 3%;
+    	margin-bottom: 18px;
+    	margin-top: 18px;
+    }
+    .content-five{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+    	margin-top: 100px;
+    	margin-bottom: 100px;
+
+    }
+    .content-five li{
+    	list-style: none;
+    	color: white;
+    }
+    .content-five-left{
+    	width: 25%;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	margin-right: 3%;
+    }
+   .content-five-left-button{
+   	    display: flex;
+   	    flex-direction: row;
+   	    align-items: center;
+   	    justify-content: center;
+   	    width: 42%;
+    	height: 42px;
+    	background-color: rgb(255,102,52);
+    	text-align: center;
+    	border-radius: 7px;
+    	color: white;
+    	font-family: ‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+    	font-size: 14px;
+    	font-weight: bold;
+
+   }
+    .content-five-right{
+    	width: 25%;
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	margin-left: 3%;
+    }
+    .content-six{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	background-color: rgb(34,34,34);
+    	width: 100%;
+    	height: 450px;
+    	color: white;
+    	font-family: Cambria, Cochin, Georgia, Times, ‘Times New Roman’, serif;
+    }
+    .content-six-left{
+    	width: 20%;
+    	height: 160px;
+    	font-weight: bold; 
+    	color: rgb(255,102,52); 
+    	font-size: 50px;
+    	margin-left: 8%;
+    	margin-right: 5%;
+    	margin-top: 90px;
+    }
+    .content-six-center{
+    	width: 30%;
+    	height: 190px;
+    	margin-top: 90px;
+    }
+    .content-six-right{
+    	width: 30%;
+    	height: 190px;
+    	margin-top: 90px;
+    }
+</style>
+</head>
+<body>
+	<div class="content-one">
+		<div class="content-one-top">
+			<div class="content-one-top-left" style="font-weight: bold; color: rgb(255,102,52);font-family: bold;font-weight: bold;">Voilà</div>
+			<div class="content-one-top-right-first">
+				<p style="font-weight: bold;">MENU</p>
+				<P style="font-size: 14px; font-family: Comic Sans MS,  sans-serif;">Sit amet constetur adipisicing elit.Fugit perspiciatis.</P>
+			</div>
+			<div class="content-one-top-right-second">
+				<p style="font-weight: bold;">ABOUT</p>
+				<p style="font-size: 14px; font-family: Comic Sans MS,  sans-serif;">Adipisicing elit.Fugit pipasam ration numquam.</p>
+			</div>
+			<div class="content-one-top-right-third">
+				<p style="font-weight: bold;">EVENTS</p>
+				<p style="font-size: 14px; font-family: Comic Sans MS,  sans-serif;">Rations numquam lorem ipsum dolor sit amet tetur.</p>
+			</div>
+			<div class="content-one-top-right-forth">
+				<p style="font-weight: bold;">RESERVATIONS</p>
+				<p style="font-size: 14px; font-family: Comic Sans MS,  sans-serif;">Voluptates animi cupiditate similique sint.</p>
+			</div>
+			<div class="content-one-top-right-fifth">
+				<p style="font-weight: bold; color: rgb(255,102,52);">CONTACT</p>
+				<P style="font-size: 14px; font-family: Comic Sans MS,  sans-serif;">Quis nemo odio soepe ullam vitae officiis delectus.</P>
+			</div>
+		</div>
+		<div class="content-one-center">
+			<li style="font-size: 63px; margin-bottom: 10px; font-family: ‘Courier New’, Courier, monospace;">WELCOME  TO  Voilà</li>
+			<li style="font-size: 25px; font-family: SimSun;font-weight: bolder;">We ofter mouth watering <u>French cuisine</u> </li>
+		</div>
+		<div class="content-one-twin">
+			<div class="content-one-twin-left">
+				<li style="font-weight: bold;">SEE MENU</li>
+			</div>
+			<div class="content-one-twin-right">
+				<li style="font-weight: bold;">FIND A TABLE</li>
+			</div>
+		</div>
+		<div class="content-one-foot">
+			<div class="content-one-foot-text">scroll down for details</div>
+			<div class="content-one-foot-image">
+				<img src="images/down-arrow-icon.png">
+			</div>
+		</div>
+	</div>
+	<div class="content-two">
+		<div class="content-two-up">
+			<div class="content-two-up-left">
+				<li style="list-style: none;font-size: 30px;font-weight: bold; text-align: center; font-family: Comic Sans MS,  sans-serif;">About Voila Restaurant</li>
+			    <p style=" font-family: Comic Sans MS,  sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Donec convalls lorem nec enim tepus viverra condimentum eget dul.Quisque ac ornare orci lacinia facilisis velit <a class="search" href="https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&tn=baidu&wd=eget%20interdum&oq=eget%2520interdum%25E4%25BB%2580%25E4%25B9%2588%25E6%2584%258F%25E6%2580%259D&rsv_pq=ed880a46001ae2c8&rsv_t=e1fd3DnDrRHI4y80k%2FSaZdE7sXRw968PFapjozw9Cj0EDG0epiz%2BLgEldDw&rqlang=cn&rsv_enter=1&rsv_dl=ts_1&rsv_btype=t&inputT=3795&rsv_sug3=17&rsv_sug1=6&rsv_sug7=000&rsv_sug2=1&prefixsug=eget%2520interdum&rsp=1&rsv_sug4=4442&rsv_sug=2">eget interdum</a>.</p>
+			    <p>Quisque orci neque,euismod vitae turpis,accumsan iaculis velit.Nulla lacinia facilisis velit eget interdum.</p>
+			    <div class="content-two-up-left-button">
+				    <p style="margin-top: 7px;">READ MORE</p>
+			    </div>
+			</div>
+			<img src="images/glass of wine.png">
+		</div>
+		<div class="content-two-down">
+			<img src="images/Eric-McGregor-flickr.png" style="transform: scale(0.95);">
+			<img src="images/Restaurant kitchen.png" style="transform: scale(0.95);">
+			<img src="images/foodiesfeed.com_excelent-beef-steak-vegetables.png" style="transform: scale(0.95);">
+		</div>
+	</div>
+	<div class="content-three">
+		<div class="content-three-left">
+			<img src="images/Steak and vegetables - Foodies Feed.png">
+			<img src="images/Beef-steak-pineapple-salad Foodies Feed.png">
+			<img src="images/Cup cakes.png" style="transform: scale(0.95);">
+		</div>
+		<div class="content-three-right">
+			<li style="list-style: none;font-size: 30px;font-weight: bold; text-align: center; font-family: Comic Sans MS,  sans-serif;">Tasteful French Cuisine</li>
+			<p style=" font-family: Comic Sans MS,  sans-serif;">Lorem ipsum roin gravida nibh vet velit auctor aliquet,Aenean sollicitudin,lorem quis bibendum auctor,nisi elit <a class="search" href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=44048691_1_oem_dg&wd=consequat%20ipsum&fenlei=256&rsv_pq=838ff5a6001a2ab9&rsv_t=5625QWyHLIcFqTSkzP71sks3lJEfqHmSWJJNtP6sNzaWa3%2BiVITZqyk2b7jo6PajVXmHUeFoj7Q&rqlang=cn&rsv_enter=0&rsv_dl=tb&rsv_sug3=39&rsv_sug1=17&rsv_sug7=101&rsv_btype=i&inputT=23237&rsv_sug4=25830">consequat ipsum</a>,nec sagittis sem nibh id elit.</p>
+			<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.Morbi accumsan ipsum velit.Nam nec <a class="search" href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=44048691_1_oem_dg&wd=tellus%20a%20odio&fenlei=256&rsv_pq=9a92cc6a000e50b4&rsv_t=eb7avdsefCjoHyvC6JhtZ1hFcfrAxepVDJnq9HPKyLlT4aseHmmXHukRp0lipmJGBzHtU8RgS4I&rqlang=cn&rsv_dl=tb&rsv_enter=0&rsv_sug3=14&rsv_sug1=8&rsv_sug7=101&rsv_btype=i&prefixsug=tellus%2520a%2520odio&rsp=5&inputT=9405&rsv_sug4=11041">tellus a odio</a> tincidunt auctor a ornare odio.This duis sed odio sit amet nibh cursus a sit amets.Morbi accumsan ipsum vulputate.
+			</p>
+			<div class="content-three-right-button">
+				<p>VIEW MENU</p>
+			</div>
+		</div>
+	</div>
+	<div class="content-four">
+		<div class="content-four-left">
+			<h3 style="margin-top: 83px;font-family: Comic Sans MS,  sans-serif;">Make a Reservation</h3>
+			<form>
+				<div class="lists">
+					<input type="text" name="Name*" placeholder="Name*">
+					<img src="images/User-icon.png">
+				</div>
+				<div class="lists">
+					<input type="text" name="Date*" placeholder="Date*">
+					<img src="images/Date-icon.png">
+				</div>
+				<div class="lists">
+					<input type="text" name="Time*" placeholder="Time*">
+					<img src="images/Time-icon.png">
+				</div>
+				<div class="lists">
+					<input type="text" name="Commensals*" placeholder="Commensals*">
+					<img src="images/commensals-icon.png">
+				</div>
+				<input style="width: 80%;height: 66px; background-color: black;color:white;" class="content-four-left-button" type="submit" name="submitbutton" value="FIND A TABLE">
+			</form>
+		</div>
+		<div class="content-four-right">
+			<h3 style="margin-top: 19px; font-family: Comic Sans MS,  sans-serif;">Upcoming Events</h3>
+			<div class="content-four-right-first">
+				<img src="images/Live music Fridays.png" style="margin-right: 4%;">
+				<div class="content-four-right-text">
+					<div class="content-four-right-title">Live Music Fridays</div>
+				    <div class="content-four-right-time">
+					     <img src="images/Date-icon.png">February 28th<img src="images/Time-icon.png">6:00PM
+				    </div>
+				    <div class="content-four-right-main">Morbi accumsan ipsum velit.Nam nec tellus a odio tincidunt autor a ornare odio tincidunt autor a ornare odio non mauris.<p style="margin-top: 1px;"><a class="search" href="https://baike.baidu.com/item/%E6%B3%95%E5%9B%BD%E9%9F%B3%E4%B9%90%E8%8A%82/6511874?fr=aladdin">Read more...</a></p></div>
+				</div>
+			</div>
+			<div class="content-four-right-second">
+				<img src="images/Festival.png" style="margin-right: 4%;">
+				<div class="content-four-right-text">
+					<div class="content-four-right-title">Louis XII Food Festival</div>
+				    <div class="content-four-right-time">
+					     <img src="images/Date-icon.png">March 12th<img src="images/Time-icon.png">12:00PM
+				    </div>
+				    <div class="content-four-right-main">Lorem ipsum dolor sit amet,consectetur adipisicing ellit.Cum atque,odit optio veritatis.<p style="margin-top: 1px;"><a class="search" href="https://www.sohu.com/a/190675126_171728">Read more...</a></p></div>
+				</div>
+			</div>
+			<div class="content-four-right-third">
+				<img src="images/magic show.png" style="margin-right: 4%;">
+				<div class="content-four-right-text">
+					<div class="content-four-right-title">Magic show with Karim Diaw</div>
+				    <div class="content-four-right-time">
+					    <img src="images/Date-icon.png">March 22nd<img src="images/Time-icon.png">8:00PM
+				    </div>
+				    <div class="content-four-right-main">Vel aliquid porro repellendus neque impedit assumends quas a libero.<p style="margin-top: 1px;"><a class="search" href="http://news.sina.com.cn/o/2009-11-24/140816660121s.shtml">Read more...</a></p></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content-five">
+		<div class="content-five-left">
+			<h3 style="font-family: Comic Sans MS,  sans-serif;">Book a Table</h3>
+			<p style="font-family: Comic Sans MS,  sans-serif;">Like our restaurant concept?Book a table and taste our dishes on firdt hand.</p>
+			<div class="content-five-left-button"><p>Book A TABLE</p></div>
+		</div>
+		<div class="content-five-center">
+			<hr style="width: 0;height: 50px; color: rgb(164,163,163);">
+			<img src="images/Or.png" style="margin-top: 2px; margin-bottom: 2px;">
+			<hr style="width: 0;height: 50px; color: #DFDFDF;">
+		</div>
+		<div class="content-five-right">
+			<h3 style="font-family: Comic Sans MS,  sans-serif;">Tell to Your Friends</h3>
+			<p style="font-family: Comic Sans MS,  sans-serif;">Some of your friends may like to visit if you recommend us.They'll trust your taste!</p>
+			<div>
+				<img src="images/Facebook Share button.png">
+				<img src="images/Tweet button.png">
+			</div>
+		</div>
+	</div>
+	<div class="content-six">
+		<div class="content-six-left">Voilà</div>
+		<div class="content-six-center">
+			<p style=" font-size: 25px; font-weight: bold; margin-bottom: 30px;">NAVIGATION</p>
+			<p>MENU</p>
+			<p>ABOUT</p>
+			<p>EVENTS</p>
+			<p>RESERVATIONS</p>
+			<p>CONTACT</p>
+		</div>
+		<div class="content-six-right">
+			<p style=" font-size: 25px; font-weight: bold; margin-bottom: 30px;">VISIT US</p>
+			<p>Nec sagittis sem nibh id elit.Duis sed odio sit amet nibh<a class="search" href="https://map.baidu.com/search/%E6%B3%95%E5%9B%BD/@117881.95,5996449.89,6z?querytype=s&wd=%E6%B3%95%E5%9B%BD&c=158&pn=0&device_ratio=2&da_src=shareurl">View on the map</a>.</p>
+			<p style="font-weight: bold;">CONNECT WITH US</p>
+			<div>
+				<img style="margin-right: 10%;" src="images/Facebook icon.png">
+				<img style="margin-right: 10%;" src="images/Twitter icon.png">
+				<img style="margin-right: 10%;" src="images/Instagram.png">
+				<img style="margin-right: 10%;" src="images/Trip advisor icon.png">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
