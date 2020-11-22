@@ -1,0 +1,546 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/top.png);
+    background-size: 100% auto;
+    height: 820px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 0px auto;
+}
+
+.restaurant-name {
+    font-size: 2.4em;
+    font-weight: bolder;
+    color: rgb(255, 102, 52);
+    margin-right: 90px;
+    margin-top: -13px;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navi-son {
+    display: flex;
+    flex-direction: column;
+    width: 121px;
+    margin-left: 50px;
+}
+
+.son1 {
+    font-size: 0.9em;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.son2 {
+    font-size: 0.8em;
+    font-weight: lighter;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.son1 a:hover {
+    color: rgb(255, 102, 52);
+}
+
+.title1 {
+    margin: 190px auto 10px auto;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+.title2 {
+    margin: 15px auto;
+    font-size: 2.6em;
+    color: white;
+    font-weight: lighter;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+span {
+    border-bottom: 2px solid white;
+}
+
+.choice {
+    display: flex;
+    flex-direction: row;
+    margin: 45px auto;
+}
+
+.choice-son {
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.choice-son:hover {
+    background-color: rgb(255, 102, 52);
+}
+
+.header-bottom {
+    margin: auto;
+    color: white;
+    font-size: 0.9em;
+}
+
+.bottom2 {
+    margin-left: 71px;
+    margin-top: 5px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 950px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 120px;
+    padding-left: 220px;
+
+}
+
+.details-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    margin-top: 18px;
+    width: 530px;
+    margin-right: 38px;
+}
+
+.des-son {
+    width: 515px;
+}
+
+.des-son h1 {
+    text-align: center;
+    margin-bottom: 42px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.des-son p {
+    font-size: 1.05em;
+    line-height: 27px;
+
+}
+
+.wine img {
+    width: 705px;
+}
+
+.details-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.more {
+    width: 170px;
+    height: 52px;
+    background-color: rgb(255, 102, 52);
+    line-height: 52px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 38px;
+    margin-left: 340px;
+}
+
+.details-two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 35px;
+
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic1 img {
+    margin-left: 33px;
+    height: 253px;
+}
+
+.pic2 img {
+    margin-left: 33px;
+    height: 253px;
+}
+
+.box1 img {
+    width: 630px;
+    margin-top: -168px;
+
+}
+
+.cuisine {
+    display: flex;
+    flex-direction: row;
+    width: 1048px;
+    height: 700px;
+    margin: auto;
+    align-items: center;
+}
+
+.cuisine-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.steak1 {
+    margin-right: 30px;
+}
+
+.cuisine-pic1 img {
+    width: 220px;
+}
+
+.cuisine-pic2 {
+    margin-top: 30px;
+}
+
+.cuisine-pic2 img {
+    width: 475px;
+}
+
+.cuisine-dec {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 510px;
+    margin-left: 75px;
+}
+
+.words {
+    width: 510px;
+}
+
+.words h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.words p {
+    font-size: 1.05em;
+    line-height: 27px;
+}
+
+.view {
+    width: 170px;
+    height: 52px;
+    background-color: rgb(255, 102, 52);
+    line-height: 52px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(247, 247, 247);
+    height: 880px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 505px;
+    height: 650px;
+    background-color: white;
+    margin-right: 38px;
+
+}
+
+.events {
+    width: 505px;
+    height: 650px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation-form input {
+    width: 330px;
+    height: 50px;
+    background-color: rgb(247, 247, 247);
+    outline-color: rgb(255, 102, 52);
+    border: 2px solid rgb(240, 236, 236);
+    padding-left: 12px;
+
+}
+
+input::-webkit-input-placeholder {
+    color: black;
+    -webkit-transition: color.5s;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #dbd5d5;
+    -webkit-transition: color.5s;
+}
+
+.reservation-one {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+
+}
+.reservation-form img{
+    margin-left: -35px;
+    margin-top: 21px;
+}
+
+.reservation-form1 input {
+    background-color: rgb(34, 34, 34);
+    width: 348px;
+    height: 55px;
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+}
+ul {
+    list-style-type: none;
+}
+.events-content {
+    width: 400px;
+    height: 560px;
+    
+}
+.events-title {
+    margin-top: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+.events-son {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 350px;
+    margin-bottom: 43px;
+}
+.events-son1 {
+    margin-left: -55px;
+    margin-right: 20px;
+    padding-top: 4px;
+}
+.events-son2 h3{
+    font-family: "Times New Roman", Times, serif;
+    color: coral;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.events-son2 p{
+    font-size: 0.8em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.grandson {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+    align-items: center;
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+.grandson-desc {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.grandson-pic {
+    margin-right: 5px;
+}
+.read a{
+    color: coral;
+    font-size: 0.85em;
+    font-style: oblique;
+    font-weight: bold;
+}
+.read {
+    margin-top: -15px;
+}
+.fourth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 450px;
+    align-items: center;
+    
+}
+.fourth-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: 200px;
+    border-right: 2px solid rgb(221, 218, 218);
+}
+.fourth-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: 200px;
+}
+.go {
+    width: 170px;
+    height: 52px;
+    background-color: rgb(255, 102, 52);
+    line-height: 52px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.book {
+    margin-top: 0px;
+    width: 340px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.book h1{
+    margin-top: 0px;
+    font-family: "Times New Roman", Times, serif;    
+}
+.book p{
+    margin-top: 25px;
+    line-height: 25px;
+}
+.book-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.book-box1 {
+    margin-right: 10px;
+}
+.or {
+    width: 42px;
+    height: 42px;
+    margin-left: 555px;
+    margin-top: -118px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    background-image: url(./images/Or.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer {
+    height: 330px;
+    background-color: rgb(34, 34, 34);
+}
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1048px;
+    height: 330px;
+    
+    margin: auto;
+}
+.footer-box1 {
+    width: 160px;
+    height: 50px;
+    font-size: 2.7em;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: rgb(255, 102, 52);
+    margin-top: 50px;
+}
+.footer-box2 {
+    width: 205px;
+    height: 260px;
+    margin-top: 66px;
+}
+.footer-box3 {
+    width: 280px;
+    margin-top: 66px;
+} 
+
+.navigation-title {
+    font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(240, 236, 236); 
+}
+.navigation-son {
+    margin-top: 15px;
+}
+.navigation-son a{
+    color: rgb(224, 219, 219);
+}
+.visit {
+    font-size: 1.5em;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: rgb(240, 236, 236);
+    margin-bottom: 25px;
+}
+.visit-p {
+    font-size: 0.95em;
+    color: rgb(224, 219, 219);
+    margin-bottom: 25px;
+}
+.connect {
+    color: rgb(240, 236, 236);
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: "Times New Roman", Times, serif;
+}
+.pic-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+}
+.pic-son {
+    margin-right: 32px;
+}
